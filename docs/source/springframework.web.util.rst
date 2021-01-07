@@ -5,36 +5,19 @@ Subpackages
 -----------
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 10
 
    springframework.web.util.pattern
 
 Submodules
 ----------
 
-springframework.web.util.ServletRequestPathUtils module
--------------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.web.util.ServletRequestPathUtils
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.util.UrlPathHelper module
----------------------------------------------
-
-.. automodule:: springframework.web.util.UrlPathHelper
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.util.WebUtils module
-----------------------------------------
-
-.. automodule:: springframework.web.util.WebUtils
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.web.util.ServletRequestPathUtils
+   springframework.web.util.UrlPathHelper
+   springframework.web.util.WebUtils
 
 Module contents
 ---------------

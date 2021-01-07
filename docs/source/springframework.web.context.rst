@@ -5,7 +5,7 @@ Subpackages
 -----------
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 10
 
    springframework.web.context.request
    springframework.web.context.support
@@ -13,13 +13,10 @@ Subpackages
 Submodules
 ----------
 
-springframework.web.context.ServletContextAware module
-------------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.web.context.ServletContextAware
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.web.context.ServletContextAware
 
 Module contents
 ---------------

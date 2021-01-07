@@ -4,37 +4,13 @@ springframework.beans.factory.xml package
 Submodules
 ----------
 
-springframework.beans.factory.xml.AbstractBeanDefinitionParser module
----------------------------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.beans.factory.xml.AbstractBeanDefinitionParser
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.beans.factory.xml.BeanDefinitionParser module
--------------------------------------------------------------
-
-.. automodule:: springframework.beans.factory.xml.BeanDefinitionParser
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.beans.factory.xml.MockXmlParser module
-------------------------------------------------------
-
-.. automodule:: springframework.beans.factory.xml.MockXmlParser
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.beans.factory.xml.ParserContext module
-------------------------------------------------------
-
-.. automodule:: springframework.beans.factory.xml.ParserContext
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.beans.factory.xml.AbstractBeanDefinitionParser
+   springframework.beans.factory.xml.BeanDefinitionParser
+   springframework.beans.factory.xml.MockXmlParser
+   springframework.beans.factory.xml.ParserContext
 
 Module contents
 ---------------

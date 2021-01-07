@@ -5,7 +5,7 @@ Subpackages
 -----------
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 10
 
    springframework.beans.factory.config
    springframework.beans.factory.xml
@@ -13,29 +13,12 @@ Subpackages
 Submodules
 ----------
 
-springframework.beans.factory.Aware module
-------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.beans.factory.Aware
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.beans.factory.BeanNameAware module
---------------------------------------------------
-
-.. automodule:: springframework.beans.factory.BeanNameAware
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.beans.factory.InitializingBean module
------------------------------------------------------
-
-.. automodule:: springframework.beans.factory.InitializingBean
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.beans.factory.Aware
+   springframework.beans.factory.BeanNameAware
+   springframework.beans.factory.InitializingBean
 
 Module contents
 ---------------

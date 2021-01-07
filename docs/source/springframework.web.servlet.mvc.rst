@@ -4,29 +4,12 @@ springframework.web.servlet.mvc package
 Submodules
 ----------
 
-springframework.web.servlet.mvc.Controller module
--------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.web.servlet.mvc.Controller
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.mvc.LastModified module
----------------------------------------------------
-
-.. automodule:: springframework.web.servlet.mvc.LastModified
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.mvc.SimpleControllerHandlerAdapter module
----------------------------------------------------------------------
-
-.. automodule:: springframework.web.servlet.mvc.SimpleControllerHandlerAdapter
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.web.servlet.mvc.Controller
+   springframework.web.servlet.mvc.LastModified
+   springframework.web.servlet.mvc.SimpleControllerHandlerAdapter
 
 Module contents
 ---------------

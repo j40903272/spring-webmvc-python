@@ -5,7 +5,7 @@ Subpackages
 -----------
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 10
 
    springframework.web.context
    springframework.web.cors
@@ -17,13 +17,10 @@ Subpackages
 Submodules
 ----------
 
-springframework.web.HttpRequestHandler module
----------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.web.HttpRequestHandler
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.web.HttpRequestHandler
 
 Module contents
 ---------------

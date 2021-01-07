@@ -4,21 +4,11 @@ springframework.function.support package
 Submodules
 ----------
 
-springframework.function.support.multiple module
-------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.function.support.multiple
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.function.support.overload module
-------------------------------------------------
-
-.. automodule:: springframework.function.support.overload
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.function.support.multiple
+   springframework.function.support.overload
 
 Module contents
 ---------------

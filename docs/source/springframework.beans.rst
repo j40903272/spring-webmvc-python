@@ -5,20 +5,17 @@ Subpackages
 -----------
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 10
 
    springframework.beans.factory
 
 Submodules
 ----------
 
-springframework.beans.BeanMetadataElement module
-------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.beans.BeanMetadataElement
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.beans.BeanMetadataElement
 
 Module contents
 ---------------

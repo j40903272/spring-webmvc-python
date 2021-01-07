@@ -4,45 +4,14 @@ springframework.context.support package
 Submodules
 ----------
 
-springframework.context.support.AbstractApplicationContext module
------------------------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.context.support.AbstractApplicationContext
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.context.support.ApplicationObjectSupport module
----------------------------------------------------------------
-
-.. automodule:: springframework.context.support.ApplicationObjectSupport
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.context.support.GenericApplicationContext module
-----------------------------------------------------------------
-
-.. automodule:: springframework.context.support.GenericApplicationContext
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.context.support.MessageSourceAccessor module
-------------------------------------------------------------
-
-.. automodule:: springframework.context.support.MessageSourceAccessor
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.context.support.StaticApplicationContext module
----------------------------------------------------------------
-
-.. automodule:: springframework.context.support.StaticApplicationContext
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.context.support.AbstractApplicationContext
+   springframework.context.support.ApplicationObjectSupport
+   springframework.context.support.GenericApplicationContext
+   springframework.context.support.MessageSourceAccessor
+   springframework.context.support.StaticApplicationContext
 
 Module contents
 ---------------

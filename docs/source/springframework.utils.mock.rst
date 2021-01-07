@@ -4,21 +4,11 @@ springframework.utils.mock package
 Submodules
 ----------
 
-springframework.utils.mock.inst module
---------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.utils.mock.inst
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.utils.mock.type module
---------------------------------------
-
-.. automodule:: springframework.utils.mock.type
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.utils.mock.inst
+   springframework.utils.mock.type
 
 Module contents
 ---------------

@@ -4,13 +4,10 @@ springframework.beans.factory.config package
 Submodules
 ----------
 
-springframework.beans.factory.config.BeanDefinition module
-----------------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.beans.factory.config.BeanDefinition
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.beans.factory.config.BeanDefinition
 
 Module contents
 ---------------

@@ -4,13 +4,10 @@ springframework.web.reactive.result.view package
 Submodules
 ----------
 
-springframework.web.reactive.result.view.RedirectView module
-------------------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.web.reactive.result.view.RedirectView
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.web.reactive.result.view.RedirectView
 
 Module contents
 ---------------

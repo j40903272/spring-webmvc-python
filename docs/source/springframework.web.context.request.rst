@@ -4,13 +4,10 @@ springframework.web.context.request package
 Submodules
 ----------
 
-springframework.web.context.request.WebRequestInterceptor module
-----------------------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.web.context.request.WebRequestInterceptor
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.web.context.request.WebRequestInterceptor
 
 Module contents
 ---------------

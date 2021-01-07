@@ -4,85 +4,19 @@ springframework.web.servlet.handler package
 Submodules
 ----------
 
-springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping module
------------------------------------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.handler.AbstractHandlerMapping module
------------------------------------------------------------------
-
-.. automodule:: springframework.web.servlet.handler.AbstractHandlerMapping
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.handler.AbstractUrlHandlerMapping module
---------------------------------------------------------------------
-
-.. automodule:: springframework.web.servlet.handler.AbstractUrlHandlerMapping
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.handler.BeanNameUrlHandlerMapping module
---------------------------------------------------------------------
-
-.. automodule:: springframework.web.servlet.handler.BeanNameUrlHandlerMapping
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.handler.CostumSimpleUrlHandlerMapping module
-------------------------------------------------------------------------
-
-.. automodule:: springframework.web.servlet.handler.CostumSimpleUrlHandlerMapping
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.handler.MappedInterceptor module
-------------------------------------------------------------
-
-.. automodule:: springframework.web.servlet.handler.MappedInterceptor
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.handler.MatchableHandlerMapping module
-------------------------------------------------------------------
-
-.. automodule:: springframework.web.servlet.handler.MatchableHandlerMapping
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.handler.RequestMatchResult module
--------------------------------------------------------------
-
-.. automodule:: springframework.web.servlet.handler.RequestMatchResult
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.handler.SimpleServletHandlerAdapter module
-----------------------------------------------------------------------
-
-.. automodule:: springframework.web.servlet.handler.SimpleServletHandlerAdapter
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.handler.SimpleUrlHandlerMapping module
-------------------------------------------------------------------
-
-.. automodule:: springframework.web.servlet.handler.SimpleUrlHandlerMapping
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping
+   springframework.web.servlet.handler.AbstractHandlerMapping
+   springframework.web.servlet.handler.AbstractUrlHandlerMapping
+   springframework.web.servlet.handler.BeanNameUrlHandlerMapping
+   springframework.web.servlet.handler.CostumSimpleUrlHandlerMapping
+   springframework.web.servlet.handler.MappedInterceptor
+   springframework.web.servlet.handler.MatchableHandlerMapping
+   springframework.web.servlet.handler.RequestMatchResult
+   springframework.web.servlet.handler.SimpleServletHandlerAdapter
+   springframework.web.servlet.handler.SimpleUrlHandlerMapping
 
 Module contents
 ---------------

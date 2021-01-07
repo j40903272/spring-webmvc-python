@@ -4,21 +4,11 @@ springframework.web.servlet.config package
 Submodules
 ----------
 
-springframework.web.servlet.config.DefaultServletHandlerBeanDefinitionParser module
------------------------------------------------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.web.servlet.config.DefaultServletHandlerBeanDefinitionParser
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.web.servlet.config.MvcNamespaceUtils module
------------------------------------------------------------
-
-.. automodule:: springframework.web.servlet.config.MvcNamespaceUtils
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.web.servlet.config.DefaultServletHandlerBeanDefinitionParser
+   springframework.web.servlet.config.MvcNamespaceUtils
 
 Module contents
 ---------------

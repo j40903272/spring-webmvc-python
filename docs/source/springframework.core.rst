@@ -5,28 +5,18 @@ Subpackages
 -----------
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 10
 
    springframework.core.env
 
 Submodules
 ----------
 
-springframework.core.AttributeAccessor module
----------------------------------------------
+.. toctree::
+   :maxdepth: 10
 
-.. automodule:: springframework.core.AttributeAccessor
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-springframework.core.Ordered module
------------------------------------
-
-.. automodule:: springframework.core.Ordered
-   :members:
-   :undoc-members:
-   :show-inheritance:
+   springframework.core.AttributeAccessor
+   springframework.core.Ordered
 
 Module contents
 ---------------
