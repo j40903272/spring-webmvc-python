@@ -8,12 +8,8 @@ Welcome to spring-webmvc-python's documentation!
 
 .. toctree::
    :maxdepth: 4
-   :caption: Contents:
 
-   readme
-   authors
-   
-
+   reference/index
 
 Indices and tables
 ==================

@@ -18,3 +18,16 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+
+clear-build:
+	rm -rf build/*
+
+clear-module:
+	rm -rf source/reference/spring*
+
+restruct:
+	python run.py -v source/reference/springframework*.rst
+
+module:
+	sphinx-apidoc -o source/reference ../springframework -f	
