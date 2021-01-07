@@ -1,5 +1,6 @@
 [![build status](http://140.112.90.153:10000/SED2020Group4/Web-Framework/badges/master/build.svg)](http://140.112.90.153:10000/SED2020Group4/Web-Framework/commits/master)
 [![coverage report](http://140.112.90.153:10000/SED2020Group4/Web-Framework/badges/master/coverage.svg)](http://140.112.90.153:10000/SED2020Group4/Web-Framework/commits/master)
+[![Documentation Status](https://readthedocs.org/projects/spring-webmvc-python/badge/?version=latest)](https://spring-webmvc-python.readthedocs.io/en/latest/?badge=latest)
 
 # checkout document
 * https://spring-webmvc-python.readthedocs.io/en/latest/
