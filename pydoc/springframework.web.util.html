@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: package springframework.web.util</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="springframework.html"><font color="#ffffff">springframework</font></a>.<a href="springframework.web.html"><font color="#ffffff">web</font></a>.util</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/jason.tsai/Desktop/Web-Framework/spring-webmvc-python/springframework/web/util/__init__.py">/Users/jason.tsai/Desktop/Web-Framework/spring-webmvc-python/springframework/web/util/__init__.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Package Contents</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="springframework.web.util.ServletRequestPathUtils.html">ServletRequestPathUtils</a><br>
+</td><td width="25%" valign=top><a href="springframework.web.util.UrlPathHelper.html">UrlPathHelper</a><br>
+</td><td width="25%" valign=top><a href="springframework.web.util.WebUtils.html">WebUtils</a><br>
+</td><td width="25%" valign=top><a href="springframework.web.util.pattern.html"><strong>pattern</strong>&nbsp;(package)</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="abc.html#ABC">abc.ABC</a>(<a href="builtins.html#object">builtins.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="springframework.web.util.ServletRequestPathUtils.html#ServletRequestPathUtils">springframework.web.util.ServletRequestPathUtils.ServletRequestPathUtils</a>
+</font></dt><dt><font face="helvetica, arial"><a href="springframework.web.util.WebUtils.html#WebUtils">springframework.web.util.WebUtils.WebUtils</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="springframework.web.util.UrlPathHelper.html#UrlPathHelper">springframework.web.util.UrlPathHelper.UrlPathHelper</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ServletRequestPathUtils">class <strong>ServletRequestPathUtils</strong></a>(<a href="abc.html#ABC">abc.ABC</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Helper&nbsp;class&nbsp;that&nbsp;provides&nbsp;a&nbsp;standard&nbsp;way&nbsp;to&nbsp;create&nbsp;an&nbsp;<a href="abc.html#ABC">ABC</a>&nbsp;using<br>
+inheritance.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.web.util.ServletRequestPathUtils.html#ServletRequestPathUtils">ServletRequestPathUtils</a></dd>
+<dd><a href="abc.html#ABC">abc.ABC</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="ServletRequestPathUtils-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset()</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="UrlPathHelper">class <strong>UrlPathHelper</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="UrlPathHelper-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="UrlPathHelper-decode_and_clean_uri_string"><strong>decode_and_clean_uri_string</strong></a>(self, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;, uri: str) -&gt; str</dt></dl>
+
+<dl><dt><a name="UrlPathHelper-decode_request_string"><strong>decode_request_string</strong></a>(self, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;, source: str) -&gt; str</dt></dl>
+
+<dl><dt><a name="UrlPathHelper-get_context_path"><strong>get_context_path</strong></a>(self, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;) -&gt; str</dt></dl>
+
+<dl><dt><a name="UrlPathHelper-get_lookup_path_for_request"><strong>get_lookup_path_for_request</strong></a>(self, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;) -&gt; str</dt></dl>
+
+<dl><dt><a name="UrlPathHelper-get_path_within_application"><strong>get_path_within_application</strong></a>(self, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;) -&gt; str</dt></dl>
+
+<dl><dt><a name="UrlPathHelper-get_path_within_servlet_mapping"><strong>get_path_within_servlet_mapping</strong></a>(self, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;, pathWithinApp: str) -&gt; str</dt></dl>
+
+<dl><dt><a name="UrlPathHelper-get_remaining_path"><strong>get_remaining_path</strong></a>(self, requestUri: str, mapping: str, ignoreCase: bool) -&gt; str</dt></dl>
+
+<dl><dt><a name="UrlPathHelper-get_request_uri"><strong>get_request_uri</strong></a>(self, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;) -&gt; str</dt></dl>
+
+<dl><dt><a name="UrlPathHelper-get_sanitized_path"><strong>get_sanitized_path</strong></a>(self, path: str) -&gt; str</dt></dl>
+
+<dl><dt><a name="UrlPathHelper-remove_semicolon_content"><strong>remove_semicolon_content</strong></a>(self, requestUri: str) -&gt; str</dt></dl>
+
+<dl><dt><a name="UrlPathHelper-resolve_and_cache_lookup_path"><strong>resolve_and_cache_lookup_path</strong></a>(self, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;) -&gt; str</dt></dl>
+
+<dl><dt><a name="UrlPathHelper-set_always_use_full_path"><strong>set_always_use_full_path</strong></a>(self, alwaysUseFullPath: bool)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>PATH_ATTRIBUTE</strong> = 'UrlPathHelper.path'</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="WebUtils">class <strong>WebUtils</strong></a>(<a href="abc.html#ABC">abc.ABC</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Helper&nbsp;class&nbsp;that&nbsp;provides&nbsp;a&nbsp;standard&nbsp;way&nbsp;to&nbsp;create&nbsp;an&nbsp;<a href="abc.html#ABC">ABC</a>&nbsp;using<br>
+inheritance.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.web.util.WebUtils.html#WebUtils">WebUtils</a></dd>
+<dd><a href="abc.html#ABC">abc.ABC</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Class methods defined here:<br>
+<dl><dt><a name="WebUtils-get_default_html_escape"><strong>get_default_html_escape</strong></a>(servlet_context: &lt;MagicMock name='ServletContext' id='4497415864'&gt;)<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<dl><dt><a name="WebUtils-get_native_request"><strong>get_native_request</strong></a>(request: &lt;MagicMock name='ServletRequest' id='4497374232'&gt;, request_type)<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<dl><dt><a name="WebUtils-get_real_path"><strong>get_real_path</strong></a>(servlet_context: &lt;MagicMock name='ServletContext' id='4497415864'&gt;, path: str)<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<dl><dt><a name="WebUtils-get_required_session_attribute"><strong>get_required_session_attribute</strong></a>(request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;, name: str)<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<dl><dt><a name="WebUtils-get_response_encoded_html_escape"><strong>get_response_encoded_html_escape</strong></a>(servlet_context: &lt;MagicMock name='ServletContext' id='4497415864'&gt;)<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<dl><dt><a name="WebUtils-get_session_attribute"><strong>get_session_attribute</strong></a>(request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;, name: str)<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<dl><dt><a name="WebUtils-get_session_id"><strong>get_session_id</strong></a>(request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;)<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<dl><dt><a name="WebUtils-get_session_mutex"><strong>get_session_mutex</strong></a>(session: &lt;MagicMock name='HttpSession' id='4497403352'&gt;)<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<dl><dt><a name="WebUtils-get_temp_dir"><strong>get_temp_dir</strong></a>(servlet_context: &lt;MagicMock name='ServletContext' id='4497415864'&gt;)<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<dl><dt><a name="WebUtils-remove_web_app_root_system_property"><strong>remove_web_app_root_system_property</strong></a>(servlet_context: &lt;MagicMock name='ServletContext' id='4497415864'&gt;) -&gt; None<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<dl><dt><a name="WebUtils-set_session_attribute"><strong>set_session_attribute</strong></a>(request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;, name: str, value)<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<dl><dt><a name="WebUtils-set_web_app_root_system_property"><strong>set_web_app_root_system_property</strong></a>(servlet_context: &lt;MagicMock name='ServletContext' id='4497415864'&gt;) -&gt; None<font color="#909090"><font face="helvetica, arial"> from <a href="abc.html#ABCMeta">abc.ABCMeta</a></font></font></dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>CONTENT_TYPE_CHARSET_PREFIX</strong> = ';charset='</dl>
+
+<dl><dt><strong>DEFAULT_CHARACTER_ENCODING</strong> = 'ISO-8859-1'</dl>
+
+<dl><dt><strong>DEFAULT_WEB_APP_ROOT_KEY</strong> = 'webapp.root'</dl>
+
+<dl><dt><strong>ERROR_EXCEPTION_ATTRIBUTE</strong> = 'javax.servlet.error.exception'</dl>
+
+<dl><dt><strong>ERROR_EXCEPTION_TYPE_ATTRIBUTE</strong> = 'javax.servlet.error.exception_type'</dl>
+
+<dl><dt><strong>ERROR_MESSAGE_ATTRIBUTE</strong> = 'javax.servlet.error.message'</dl>
+
+<dl><dt><strong>ERROR_REQUEST_URI_ATTRIBUTE</strong> = 'javax.servlet.error.request_uri'</dl>
+
+<dl><dt><strong>ERROR_SERVLET_NAME_ATTRIBUTE</strong> = 'javax.servlet.error.servlet_name'</dl>
+
+<dl><dt><strong>ERROR_STATUS_CODE_ATTRIBUTE</strong> = 'javax.servlet.error.status_code'</dl>
+
+<dl><dt><strong>FORWARD_CONTEXT_PATH_ATTRIBUTE</strong> = 'javax.servlet.forward.context_path'</dl>
+
+<dl><dt><strong>FORWARD_PATH_INFO_ATTRIBUTE</strong> = 'javax.servlet.forward.path_info'</dl>
+
+<dl><dt><strong>FORWARD_QUERY_STRING_ATTRIBUTE</strong> = 'javax.servlet.forward.query_string'</dl>
+
+<dl><dt><strong>FORWARD_REQUEST_URI_ATTRIBUTE</strong> = 'javax.servlet.forward.request_uri'</dl>
+
+<dl><dt><strong>FORWARD_SERVLET_PATH_ATTRIBUTE</strong> = 'javax.servlet.forward.servlet_path'</dl>
+
+<dl><dt><strong>HTML_ESCAPE_CONTEXT_PARAM</strong> = 'defaultHtmlEscape'</dl>
+
+<dl><dt><strong>INCLUDE_CONTEXT_PATH_ATTRIBUTE</strong> = 'javax.servlet.include.context_path'</dl>
+
+<dl><dt><strong>INCLUDE_PATH_INFO_ATTRIBUTE</strong> = 'javax.servlet.include.path_info'</dl>
+
+<dl><dt><strong>INCLUDE_QUERY_STRING_ATTRIBUTE</strong> = 'javax.servlet.include.query_string'</dl>
+
+<dl><dt><strong>INCLUDE_REQUEST_URI_ATTRIBUTE</strong> = 'javax.servlet.include.request_uri'</dl>
+
+<dl><dt><strong>INCLUDE_SERVLET_PATH_ATTRIBUTE</strong> = 'javax.servlet.include.servlet_path'</dl>
+
+<dl><dt><strong>RESPONSE_ENCODED_HTML_ESCAPE_CONTEXT_PARAM</strong> = 'responseEncodedHtmlEscape'</dl>
+
+<dl><dt><strong>SESSION_MUTEX_ATTRIBUTE</strong> = 'WebUtils.MUTEX'</dl>
+
+<dl><dt><strong>SUBMIT_IMAGE_SUFFIXES</strong> = ['.x', '.y']</dl>
+
+<dl><dt><strong>TEMP_DIR_CONTEXT_ATTRIBUTE</strong> = 'javax.servlet.context.tempdir'</dl>
+
+<dl><dt><strong>WEB_APP_ROOT_KEY_PARAM</strong> = 'webAppRootKey'</dl>
+
+<dl><dt><strong>__abstractmethods__</strong> = frozenset()</dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__all__</strong> = ['ServletRequestPathUtils', 'UrlPathHelper', 'WebUtils']</td></tr></table>
+</body></html>

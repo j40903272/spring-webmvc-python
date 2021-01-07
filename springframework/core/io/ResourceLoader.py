@@ -1,0 +1,3 @@
+# interface
+class ResourceLoader:
+    pass

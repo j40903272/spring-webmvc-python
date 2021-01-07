@@ -1,0 +1,1010 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module springframework.utils.mock.type</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="springframework.html"><font color="#ffffff">springframework</font></a>.<a href="springframework.utils.html"><font color="#ffffff">utils</font></a>.<a href="springframework.utils.mock.html"><font color="#ffffff">mock</font></a>.type</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/jason.tsai/Desktop/Web-Framework/spring-webmvc-python/springframework/utils/mock/type.py">/Users/jason.tsai/Desktop/Web-Framework/spring-webmvc-python/springframework/utils/mock/type.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="unittest.mock.html">unittest.mock</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="springframework.utils.mock.type.html#HttpServletRequest">HttpServletRequest</a>
+</font></dt><dt><font face="helvetica, arial"><a href="springframework.utils.mock.type.html#HttpServletResponse">HttpServletResponse</a>
+</font></dt><dt><font face="helvetica, arial"><a href="springframework.utils.mock.type.html#HttpStatus">HttpStatus</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>(<a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>, <a href="unittest.mock.html#Mock">unittest.mock.Mock</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="springframework.utils.mock.type.html#AsyncHandlerInterceptor">AsyncHandlerInterceptor</a>
+</font></dt><dt><font face="helvetica, arial"><a href="springframework.utils.mock.type.html#HttpServletResponseWrapper">HttpServletResponseWrapper</a>
+</font></dt><dt><font face="helvetica, arial"><a href="springframework.utils.mock.type.html#HttpSessionBindingListener">HttpSessionBindingListener</a>
+</font></dt><dt><font face="helvetica, arial"><a href="springframework.utils.mock.type.html#JstlView">JstlView</a>
+</font></dt><dt><font face="helvetica, arial"><a href="springframework.utils.mock.type.html#Serializable">Serializable</a>
+</font></dt><dt><font face="helvetica, arial"><a href="springframework.utils.mock.type.html#Servlet">Servlet</a>
+</font></dt><dt><font face="helvetica, arial"><a href="springframework.utils.mock.type.html#ServletRequestWrapper">ServletRequestWrapper</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AsyncHandlerInterceptor">class <strong>AsyncHandlerInterceptor</strong></a>(<a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AsyncHandlerInterceptor">AsyncHandlerInterceptor</a>(*args,&nbsp;**kw)<br>
+&nbsp;<br>
+<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;is&nbsp;a&nbsp;subclass&nbsp;of&nbsp;Mock&nbsp;with&nbsp;default&nbsp;implementations<br>
+of&nbsp;most&nbsp;of&nbsp;the&nbsp;magic&nbsp;methods.&nbsp;You&nbsp;can&nbsp;use&nbsp;<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;without&nbsp;having&nbsp;to<br>
+configure&nbsp;the&nbsp;magic&nbsp;methods&nbsp;yourself.<br>
+&nbsp;<br>
+If&nbsp;you&nbsp;use&nbsp;the&nbsp;`spec`&nbsp;or&nbsp;`spec_set`&nbsp;arguments&nbsp;then&nbsp;*only*&nbsp;magic<br>
+methods&nbsp;that&nbsp;exist&nbsp;in&nbsp;the&nbsp;spec&nbsp;will&nbsp;be&nbsp;created.<br>
+&nbsp;<br>
+Attributes&nbsp;and&nbsp;the&nbsp;return&nbsp;value&nbsp;of&nbsp;a&nbsp;`<a href="unittest.mock.html#MagicMock">MagicMock</a>`&nbsp;will&nbsp;also&nbsp;be&nbsp;`MagicMocks`.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.utils.mock.type.html#AsyncHandlerInterceptor">AsyncHandlerInterceptor</a></dd>
+<dd><a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a></dd>
+<dd><a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a></dd>
+<dd><a href="unittest.mock.html#Mock">unittest.mock.Mock</a></dd>
+<dd><a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a></dd>
+<dd><a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a></dd>
+<dd><a href="unittest.mock.html#Base">unittest.mock.Base</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>:<br>
+<dl><dt><a name="AsyncHandlerInterceptor-mock_add_spec"><strong>mock_add_spec</strong></a>(self, spec, spec_set=False)</dt><dd><tt>Add&nbsp;a&nbsp;spec&nbsp;to&nbsp;a&nbsp;mock.&nbsp;`spec`&nbsp;can&nbsp;either&nbsp;be&nbsp;an&nbsp;<a href="builtins.html#object">object</a>&nbsp;or&nbsp;a<br>
+list&nbsp;of&nbsp;strings.&nbsp;Only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;`spec`&nbsp;can&nbsp;be&nbsp;fetched&nbsp;as<br>
+attributes&nbsp;from&nbsp;the&nbsp;mock.<br>
+&nbsp;<br>
+If&nbsp;`spec_set`&nbsp;is&nbsp;True&nbsp;then&nbsp;only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;spec&nbsp;can&nbsp;be&nbsp;set.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><a name="AsyncHandlerInterceptor-__init__"><strong>__init__</strong></a>(self, *args, **kw)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a>:<br>
+<dl><dt><a name="AsyncHandlerInterceptor-__call__"><strong>__call__</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>Call&nbsp;self&nbsp;as&nbsp;a&nbsp;function.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="AsyncHandlerInterceptor-__delattr__"><strong>__delattr__</strong></a>(self, name)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-__dir__"><strong>__dir__</strong></a>(self)</dt><dd><tt>Filter&nbsp;the&nbsp;output&nbsp;of&nbsp;`dir(mock)`&nbsp;to&nbsp;only&nbsp;useful&nbsp;members.</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-__getattr__"><strong>__getattr__</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-__setattr__"><strong>__setattr__</strong></a>(self, name, value)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-assert_any_call"><strong>assert_any_call</strong></a>(self, *args, **kwargs)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+The&nbsp;assert&nbsp;passes&nbsp;if&nbsp;the&nbsp;mock&nbsp;has&nbsp;*ever*&nbsp;been&nbsp;called,&nbsp;unlike<br>
+`assert_called_with`&nbsp;and&nbsp;`assert_called_once_with`&nbsp;that&nbsp;only&nbsp;pass&nbsp;if<br>
+the&nbsp;call&nbsp;is&nbsp;the&nbsp;most&nbsp;recent&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-assert_called"><strong>assert_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;at&nbsp;least&nbsp;once</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-assert_called_once"><strong>assert_called_once</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;only&nbsp;once.</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-assert_called_once_with"><strong>assert_called_once_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;exactly&nbsp;once&nbsp;and&nbsp;that&nbsp;that&nbsp;call&nbsp;was<br>
+with&nbsp;the&nbsp;specified&nbsp;arguments.</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-assert_called_with"><strong>assert_called_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+Raises&nbsp;an&nbsp;AssertionError&nbsp;if&nbsp;the&nbsp;args&nbsp;and&nbsp;keyword&nbsp;args&nbsp;passed&nbsp;in&nbsp;are<br>
+different&nbsp;to&nbsp;the&nbsp;last&nbsp;call&nbsp;to&nbsp;the&nbsp;mock.</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-assert_has_calls"><strong>assert_has_calls</strong></a>(self, calls, any_order=False)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;calls.<br>
+The&nbsp;`mock_calls`&nbsp;list&nbsp;is&nbsp;checked&nbsp;for&nbsp;the&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;False&nbsp;(the&nbsp;default)&nbsp;then&nbsp;the&nbsp;calls&nbsp;must&nbsp;be<br>
+sequential.&nbsp;There&nbsp;can&nbsp;be&nbsp;extra&nbsp;calls&nbsp;before&nbsp;or&nbsp;after&nbsp;the<br>
+specified&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;True&nbsp;then&nbsp;the&nbsp;calls&nbsp;can&nbsp;be&nbsp;in&nbsp;any&nbsp;order,&nbsp;but<br>
+they&nbsp;must&nbsp;all&nbsp;appear&nbsp;in&nbsp;`mock_calls`.</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-assert_not_called"><strong>assert_not_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;never&nbsp;called.</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-attach_mock"><strong>attach_mock</strong></a>(self, mock, attribute)</dt><dd><tt>Attach&nbsp;a&nbsp;mock&nbsp;as&nbsp;an&nbsp;attribute&nbsp;of&nbsp;this&nbsp;one,&nbsp;replacing&nbsp;its&nbsp;name&nbsp;and<br>
+parent.&nbsp;Calls&nbsp;to&nbsp;the&nbsp;attached&nbsp;mock&nbsp;will&nbsp;be&nbsp;recorded&nbsp;in&nbsp;the<br>
+`method_calls`&nbsp;and&nbsp;`mock_calls`&nbsp;attributes&nbsp;of&nbsp;this&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-configure_mock"><strong>configure_mock</strong></a>(self, **kwargs)</dt><dd><tt>Set&nbsp;attributes&nbsp;on&nbsp;the&nbsp;mock&nbsp;through&nbsp;keyword&nbsp;arguments.<br>
+&nbsp;<br>
+Attributes&nbsp;plus&nbsp;return&nbsp;values&nbsp;and&nbsp;side&nbsp;effects&nbsp;can&nbsp;be&nbsp;set&nbsp;on&nbsp;child<br>
+mocks&nbsp;using&nbsp;standard&nbsp;dot&nbsp;notation&nbsp;and&nbsp;unpacking&nbsp;a&nbsp;dictionary&nbsp;in&nbsp;the<br>
+method&nbsp;call:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;attrs&nbsp;=&nbsp;{'method.return_value':&nbsp;3,&nbsp;'other.side_effect':&nbsp;KeyError}<br>
+&gt;&gt;&gt;&nbsp;mock.<a href="#AsyncHandlerInterceptor-configure_mock">configure_mock</a>(**attrs)</tt></dd></dl>
+
+<dl><dt><a name="AsyncHandlerInterceptor-reset_mock"><strong>reset_mock</strong></a>(self, visited=None, *, return_value=False, side_effect=False)</dt><dd><tt>Restore&nbsp;the&nbsp;mock&nbsp;<a href="builtins.html#object">object</a>&nbsp;to&nbsp;its&nbsp;initial&nbsp;state.</tt></dd></dl>
+
+<hr>
+Static methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="AsyncHandlerInterceptor-__new__"><strong>__new__</strong></a>(cls, *args, **kw)</dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#object">object</a>.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><strong>__class__</strong></dt>
+</dl>
+<dl><dt><strong>call_args</strong></dt>
+</dl>
+<dl><dt><strong>call_args_list</strong></dt>
+</dl>
+<dl><dt><strong>call_count</strong></dt>
+</dl>
+<dl><dt><strong>called</strong></dt>
+</dl>
+<dl><dt><strong>mock_calls</strong></dt>
+</dl>
+<dl><dt><strong>return_value</strong></dt>
+</dl>
+<dl><dt><strong>side_effect</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="HttpServletRequest">class <strong>HttpServletRequest</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="HttpServletResponse">class <strong>HttpServletResponse</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="HttpServletResponseWrapper">class <strong>HttpServletResponseWrapper</strong></a>(<a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#HttpServletResponseWrapper">HttpServletResponseWrapper</a>(*args,&nbsp;**kw)<br>
+&nbsp;<br>
+<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;is&nbsp;a&nbsp;subclass&nbsp;of&nbsp;Mock&nbsp;with&nbsp;default&nbsp;implementations<br>
+of&nbsp;most&nbsp;of&nbsp;the&nbsp;magic&nbsp;methods.&nbsp;You&nbsp;can&nbsp;use&nbsp;<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;without&nbsp;having&nbsp;to<br>
+configure&nbsp;the&nbsp;magic&nbsp;methods&nbsp;yourself.<br>
+&nbsp;<br>
+If&nbsp;you&nbsp;use&nbsp;the&nbsp;`spec`&nbsp;or&nbsp;`spec_set`&nbsp;arguments&nbsp;then&nbsp;*only*&nbsp;magic<br>
+methods&nbsp;that&nbsp;exist&nbsp;in&nbsp;the&nbsp;spec&nbsp;will&nbsp;be&nbsp;created.<br>
+&nbsp;<br>
+Attributes&nbsp;and&nbsp;the&nbsp;return&nbsp;value&nbsp;of&nbsp;a&nbsp;`<a href="unittest.mock.html#MagicMock">MagicMock</a>`&nbsp;will&nbsp;also&nbsp;be&nbsp;`MagicMocks`.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.utils.mock.type.html#HttpServletResponseWrapper">HttpServletResponseWrapper</a></dd>
+<dd><a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a></dd>
+<dd><a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a></dd>
+<dd><a href="unittest.mock.html#Mock">unittest.mock.Mock</a></dd>
+<dd><a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a></dd>
+<dd><a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a></dd>
+<dd><a href="unittest.mock.html#Base">unittest.mock.Base</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>:<br>
+<dl><dt><a name="HttpServletResponseWrapper-mock_add_spec"><strong>mock_add_spec</strong></a>(self, spec, spec_set=False)</dt><dd><tt>Add&nbsp;a&nbsp;spec&nbsp;to&nbsp;a&nbsp;mock.&nbsp;`spec`&nbsp;can&nbsp;either&nbsp;be&nbsp;an&nbsp;<a href="builtins.html#object">object</a>&nbsp;or&nbsp;a<br>
+list&nbsp;of&nbsp;strings.&nbsp;Only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;`spec`&nbsp;can&nbsp;be&nbsp;fetched&nbsp;as<br>
+attributes&nbsp;from&nbsp;the&nbsp;mock.<br>
+&nbsp;<br>
+If&nbsp;`spec_set`&nbsp;is&nbsp;True&nbsp;then&nbsp;only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;spec&nbsp;can&nbsp;be&nbsp;set.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><a name="HttpServletResponseWrapper-__init__"><strong>__init__</strong></a>(self, *args, **kw)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a>:<br>
+<dl><dt><a name="HttpServletResponseWrapper-__call__"><strong>__call__</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>Call&nbsp;self&nbsp;as&nbsp;a&nbsp;function.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="HttpServletResponseWrapper-__delattr__"><strong>__delattr__</strong></a>(self, name)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-__dir__"><strong>__dir__</strong></a>(self)</dt><dd><tt>Filter&nbsp;the&nbsp;output&nbsp;of&nbsp;`dir(mock)`&nbsp;to&nbsp;only&nbsp;useful&nbsp;members.</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-__getattr__"><strong>__getattr__</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-__setattr__"><strong>__setattr__</strong></a>(self, name, value)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-assert_any_call"><strong>assert_any_call</strong></a>(self, *args, **kwargs)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+The&nbsp;assert&nbsp;passes&nbsp;if&nbsp;the&nbsp;mock&nbsp;has&nbsp;*ever*&nbsp;been&nbsp;called,&nbsp;unlike<br>
+`assert_called_with`&nbsp;and&nbsp;`assert_called_once_with`&nbsp;that&nbsp;only&nbsp;pass&nbsp;if<br>
+the&nbsp;call&nbsp;is&nbsp;the&nbsp;most&nbsp;recent&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-assert_called"><strong>assert_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;at&nbsp;least&nbsp;once</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-assert_called_once"><strong>assert_called_once</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;only&nbsp;once.</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-assert_called_once_with"><strong>assert_called_once_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;exactly&nbsp;once&nbsp;and&nbsp;that&nbsp;that&nbsp;call&nbsp;was<br>
+with&nbsp;the&nbsp;specified&nbsp;arguments.</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-assert_called_with"><strong>assert_called_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+Raises&nbsp;an&nbsp;AssertionError&nbsp;if&nbsp;the&nbsp;args&nbsp;and&nbsp;keyword&nbsp;args&nbsp;passed&nbsp;in&nbsp;are<br>
+different&nbsp;to&nbsp;the&nbsp;last&nbsp;call&nbsp;to&nbsp;the&nbsp;mock.</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-assert_has_calls"><strong>assert_has_calls</strong></a>(self, calls, any_order=False)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;calls.<br>
+The&nbsp;`mock_calls`&nbsp;list&nbsp;is&nbsp;checked&nbsp;for&nbsp;the&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;False&nbsp;(the&nbsp;default)&nbsp;then&nbsp;the&nbsp;calls&nbsp;must&nbsp;be<br>
+sequential.&nbsp;There&nbsp;can&nbsp;be&nbsp;extra&nbsp;calls&nbsp;before&nbsp;or&nbsp;after&nbsp;the<br>
+specified&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;True&nbsp;then&nbsp;the&nbsp;calls&nbsp;can&nbsp;be&nbsp;in&nbsp;any&nbsp;order,&nbsp;but<br>
+they&nbsp;must&nbsp;all&nbsp;appear&nbsp;in&nbsp;`mock_calls`.</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-assert_not_called"><strong>assert_not_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;never&nbsp;called.</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-attach_mock"><strong>attach_mock</strong></a>(self, mock, attribute)</dt><dd><tt>Attach&nbsp;a&nbsp;mock&nbsp;as&nbsp;an&nbsp;attribute&nbsp;of&nbsp;this&nbsp;one,&nbsp;replacing&nbsp;its&nbsp;name&nbsp;and<br>
+parent.&nbsp;Calls&nbsp;to&nbsp;the&nbsp;attached&nbsp;mock&nbsp;will&nbsp;be&nbsp;recorded&nbsp;in&nbsp;the<br>
+`method_calls`&nbsp;and&nbsp;`mock_calls`&nbsp;attributes&nbsp;of&nbsp;this&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-configure_mock"><strong>configure_mock</strong></a>(self, **kwargs)</dt><dd><tt>Set&nbsp;attributes&nbsp;on&nbsp;the&nbsp;mock&nbsp;through&nbsp;keyword&nbsp;arguments.<br>
+&nbsp;<br>
+Attributes&nbsp;plus&nbsp;return&nbsp;values&nbsp;and&nbsp;side&nbsp;effects&nbsp;can&nbsp;be&nbsp;set&nbsp;on&nbsp;child<br>
+mocks&nbsp;using&nbsp;standard&nbsp;dot&nbsp;notation&nbsp;and&nbsp;unpacking&nbsp;a&nbsp;dictionary&nbsp;in&nbsp;the<br>
+method&nbsp;call:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;attrs&nbsp;=&nbsp;{'method.return_value':&nbsp;3,&nbsp;'other.side_effect':&nbsp;KeyError}<br>
+&gt;&gt;&gt;&nbsp;mock.<a href="#HttpServletResponseWrapper-configure_mock">configure_mock</a>(**attrs)</tt></dd></dl>
+
+<dl><dt><a name="HttpServletResponseWrapper-reset_mock"><strong>reset_mock</strong></a>(self, visited=None, *, return_value=False, side_effect=False)</dt><dd><tt>Restore&nbsp;the&nbsp;mock&nbsp;<a href="builtins.html#object">object</a>&nbsp;to&nbsp;its&nbsp;initial&nbsp;state.</tt></dd></dl>
+
+<hr>
+Static methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="HttpServletResponseWrapper-__new__"><strong>__new__</strong></a>(cls, *args, **kw)</dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#object">object</a>.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><strong>__class__</strong></dt>
+</dl>
+<dl><dt><strong>call_args</strong></dt>
+</dl>
+<dl><dt><strong>call_args_list</strong></dt>
+</dl>
+<dl><dt><strong>call_count</strong></dt>
+</dl>
+<dl><dt><strong>called</strong></dt>
+</dl>
+<dl><dt><strong>mock_calls</strong></dt>
+</dl>
+<dl><dt><strong>return_value</strong></dt>
+</dl>
+<dl><dt><strong>side_effect</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="HttpSessionBindingListener">class <strong>HttpSessionBindingListener</strong></a>(<a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#HttpSessionBindingListener">HttpSessionBindingListener</a>(*args,&nbsp;**kw)<br>
+&nbsp;<br>
+<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;is&nbsp;a&nbsp;subclass&nbsp;of&nbsp;Mock&nbsp;with&nbsp;default&nbsp;implementations<br>
+of&nbsp;most&nbsp;of&nbsp;the&nbsp;magic&nbsp;methods.&nbsp;You&nbsp;can&nbsp;use&nbsp;<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;without&nbsp;having&nbsp;to<br>
+configure&nbsp;the&nbsp;magic&nbsp;methods&nbsp;yourself.<br>
+&nbsp;<br>
+If&nbsp;you&nbsp;use&nbsp;the&nbsp;`spec`&nbsp;or&nbsp;`spec_set`&nbsp;arguments&nbsp;then&nbsp;*only*&nbsp;magic<br>
+methods&nbsp;that&nbsp;exist&nbsp;in&nbsp;the&nbsp;spec&nbsp;will&nbsp;be&nbsp;created.<br>
+&nbsp;<br>
+Attributes&nbsp;and&nbsp;the&nbsp;return&nbsp;value&nbsp;of&nbsp;a&nbsp;`<a href="unittest.mock.html#MagicMock">MagicMock</a>`&nbsp;will&nbsp;also&nbsp;be&nbsp;`MagicMocks`.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.utils.mock.type.html#HttpSessionBindingListener">HttpSessionBindingListener</a></dd>
+<dd><a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a></dd>
+<dd><a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a></dd>
+<dd><a href="unittest.mock.html#Mock">unittest.mock.Mock</a></dd>
+<dd><a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a></dd>
+<dd><a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a></dd>
+<dd><a href="unittest.mock.html#Base">unittest.mock.Base</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>:<br>
+<dl><dt><a name="HttpSessionBindingListener-mock_add_spec"><strong>mock_add_spec</strong></a>(self, spec, spec_set=False)</dt><dd><tt>Add&nbsp;a&nbsp;spec&nbsp;to&nbsp;a&nbsp;mock.&nbsp;`spec`&nbsp;can&nbsp;either&nbsp;be&nbsp;an&nbsp;<a href="builtins.html#object">object</a>&nbsp;or&nbsp;a<br>
+list&nbsp;of&nbsp;strings.&nbsp;Only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;`spec`&nbsp;can&nbsp;be&nbsp;fetched&nbsp;as<br>
+attributes&nbsp;from&nbsp;the&nbsp;mock.<br>
+&nbsp;<br>
+If&nbsp;`spec_set`&nbsp;is&nbsp;True&nbsp;then&nbsp;only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;spec&nbsp;can&nbsp;be&nbsp;set.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><a name="HttpSessionBindingListener-__init__"><strong>__init__</strong></a>(self, *args, **kw)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a>:<br>
+<dl><dt><a name="HttpSessionBindingListener-__call__"><strong>__call__</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>Call&nbsp;self&nbsp;as&nbsp;a&nbsp;function.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="HttpSessionBindingListener-__delattr__"><strong>__delattr__</strong></a>(self, name)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-__dir__"><strong>__dir__</strong></a>(self)</dt><dd><tt>Filter&nbsp;the&nbsp;output&nbsp;of&nbsp;`dir(mock)`&nbsp;to&nbsp;only&nbsp;useful&nbsp;members.</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-__getattr__"><strong>__getattr__</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-__setattr__"><strong>__setattr__</strong></a>(self, name, value)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-assert_any_call"><strong>assert_any_call</strong></a>(self, *args, **kwargs)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+The&nbsp;assert&nbsp;passes&nbsp;if&nbsp;the&nbsp;mock&nbsp;has&nbsp;*ever*&nbsp;been&nbsp;called,&nbsp;unlike<br>
+`assert_called_with`&nbsp;and&nbsp;`assert_called_once_with`&nbsp;that&nbsp;only&nbsp;pass&nbsp;if<br>
+the&nbsp;call&nbsp;is&nbsp;the&nbsp;most&nbsp;recent&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-assert_called"><strong>assert_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;at&nbsp;least&nbsp;once</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-assert_called_once"><strong>assert_called_once</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;only&nbsp;once.</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-assert_called_once_with"><strong>assert_called_once_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;exactly&nbsp;once&nbsp;and&nbsp;that&nbsp;that&nbsp;call&nbsp;was<br>
+with&nbsp;the&nbsp;specified&nbsp;arguments.</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-assert_called_with"><strong>assert_called_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+Raises&nbsp;an&nbsp;AssertionError&nbsp;if&nbsp;the&nbsp;args&nbsp;and&nbsp;keyword&nbsp;args&nbsp;passed&nbsp;in&nbsp;are<br>
+different&nbsp;to&nbsp;the&nbsp;last&nbsp;call&nbsp;to&nbsp;the&nbsp;mock.</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-assert_has_calls"><strong>assert_has_calls</strong></a>(self, calls, any_order=False)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;calls.<br>
+The&nbsp;`mock_calls`&nbsp;list&nbsp;is&nbsp;checked&nbsp;for&nbsp;the&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;False&nbsp;(the&nbsp;default)&nbsp;then&nbsp;the&nbsp;calls&nbsp;must&nbsp;be<br>
+sequential.&nbsp;There&nbsp;can&nbsp;be&nbsp;extra&nbsp;calls&nbsp;before&nbsp;or&nbsp;after&nbsp;the<br>
+specified&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;True&nbsp;then&nbsp;the&nbsp;calls&nbsp;can&nbsp;be&nbsp;in&nbsp;any&nbsp;order,&nbsp;but<br>
+they&nbsp;must&nbsp;all&nbsp;appear&nbsp;in&nbsp;`mock_calls`.</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-assert_not_called"><strong>assert_not_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;never&nbsp;called.</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-attach_mock"><strong>attach_mock</strong></a>(self, mock, attribute)</dt><dd><tt>Attach&nbsp;a&nbsp;mock&nbsp;as&nbsp;an&nbsp;attribute&nbsp;of&nbsp;this&nbsp;one,&nbsp;replacing&nbsp;its&nbsp;name&nbsp;and<br>
+parent.&nbsp;Calls&nbsp;to&nbsp;the&nbsp;attached&nbsp;mock&nbsp;will&nbsp;be&nbsp;recorded&nbsp;in&nbsp;the<br>
+`method_calls`&nbsp;and&nbsp;`mock_calls`&nbsp;attributes&nbsp;of&nbsp;this&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-configure_mock"><strong>configure_mock</strong></a>(self, **kwargs)</dt><dd><tt>Set&nbsp;attributes&nbsp;on&nbsp;the&nbsp;mock&nbsp;through&nbsp;keyword&nbsp;arguments.<br>
+&nbsp;<br>
+Attributes&nbsp;plus&nbsp;return&nbsp;values&nbsp;and&nbsp;side&nbsp;effects&nbsp;can&nbsp;be&nbsp;set&nbsp;on&nbsp;child<br>
+mocks&nbsp;using&nbsp;standard&nbsp;dot&nbsp;notation&nbsp;and&nbsp;unpacking&nbsp;a&nbsp;dictionary&nbsp;in&nbsp;the<br>
+method&nbsp;call:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;attrs&nbsp;=&nbsp;{'method.return_value':&nbsp;3,&nbsp;'other.side_effect':&nbsp;KeyError}<br>
+&gt;&gt;&gt;&nbsp;mock.<a href="#HttpSessionBindingListener-configure_mock">configure_mock</a>(**attrs)</tt></dd></dl>
+
+<dl><dt><a name="HttpSessionBindingListener-reset_mock"><strong>reset_mock</strong></a>(self, visited=None, *, return_value=False, side_effect=False)</dt><dd><tt>Restore&nbsp;the&nbsp;mock&nbsp;<a href="builtins.html#object">object</a>&nbsp;to&nbsp;its&nbsp;initial&nbsp;state.</tt></dd></dl>
+
+<hr>
+Static methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="HttpSessionBindingListener-__new__"><strong>__new__</strong></a>(cls, *args, **kw)</dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#object">object</a>.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><strong>__class__</strong></dt>
+</dl>
+<dl><dt><strong>call_args</strong></dt>
+</dl>
+<dl><dt><strong>call_args_list</strong></dt>
+</dl>
+<dl><dt><strong>call_count</strong></dt>
+</dl>
+<dl><dt><strong>called</strong></dt>
+</dl>
+<dl><dt><strong>mock_calls</strong></dt>
+</dl>
+<dl><dt><strong>return_value</strong></dt>
+</dl>
+<dl><dt><strong>side_effect</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="HttpStatus">class <strong>HttpStatus</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="JstlView">class <strong>JstlView</strong></a>(<a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#JstlView">JstlView</a>(*args,&nbsp;**kw)<br>
+&nbsp;<br>
+<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;is&nbsp;a&nbsp;subclass&nbsp;of&nbsp;Mock&nbsp;with&nbsp;default&nbsp;implementations<br>
+of&nbsp;most&nbsp;of&nbsp;the&nbsp;magic&nbsp;methods.&nbsp;You&nbsp;can&nbsp;use&nbsp;<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;without&nbsp;having&nbsp;to<br>
+configure&nbsp;the&nbsp;magic&nbsp;methods&nbsp;yourself.<br>
+&nbsp;<br>
+If&nbsp;you&nbsp;use&nbsp;the&nbsp;`spec`&nbsp;or&nbsp;`spec_set`&nbsp;arguments&nbsp;then&nbsp;*only*&nbsp;magic<br>
+methods&nbsp;that&nbsp;exist&nbsp;in&nbsp;the&nbsp;spec&nbsp;will&nbsp;be&nbsp;created.<br>
+&nbsp;<br>
+Attributes&nbsp;and&nbsp;the&nbsp;return&nbsp;value&nbsp;of&nbsp;a&nbsp;`<a href="unittest.mock.html#MagicMock">MagicMock</a>`&nbsp;will&nbsp;also&nbsp;be&nbsp;`MagicMocks`.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.utils.mock.type.html#JstlView">JstlView</a></dd>
+<dd><a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a></dd>
+<dd><a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a></dd>
+<dd><a href="unittest.mock.html#Mock">unittest.mock.Mock</a></dd>
+<dd><a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a></dd>
+<dd><a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a></dd>
+<dd><a href="unittest.mock.html#Base">unittest.mock.Base</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>:<br>
+<dl><dt><a name="JstlView-mock_add_spec"><strong>mock_add_spec</strong></a>(self, spec, spec_set=False)</dt><dd><tt>Add&nbsp;a&nbsp;spec&nbsp;to&nbsp;a&nbsp;mock.&nbsp;`spec`&nbsp;can&nbsp;either&nbsp;be&nbsp;an&nbsp;<a href="builtins.html#object">object</a>&nbsp;or&nbsp;a<br>
+list&nbsp;of&nbsp;strings.&nbsp;Only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;`spec`&nbsp;can&nbsp;be&nbsp;fetched&nbsp;as<br>
+attributes&nbsp;from&nbsp;the&nbsp;mock.<br>
+&nbsp;<br>
+If&nbsp;`spec_set`&nbsp;is&nbsp;True&nbsp;then&nbsp;only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;spec&nbsp;can&nbsp;be&nbsp;set.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><a name="JstlView-__init__"><strong>__init__</strong></a>(self, *args, **kw)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a>:<br>
+<dl><dt><a name="JstlView-__call__"><strong>__call__</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>Call&nbsp;self&nbsp;as&nbsp;a&nbsp;function.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="JstlView-__delattr__"><strong>__delattr__</strong></a>(self, name)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="JstlView-__dir__"><strong>__dir__</strong></a>(self)</dt><dd><tt>Filter&nbsp;the&nbsp;output&nbsp;of&nbsp;`dir(mock)`&nbsp;to&nbsp;only&nbsp;useful&nbsp;members.</tt></dd></dl>
+
+<dl><dt><a name="JstlView-__getattr__"><strong>__getattr__</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="JstlView-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="JstlView-__setattr__"><strong>__setattr__</strong></a>(self, name, value)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="JstlView-assert_any_call"><strong>assert_any_call</strong></a>(self, *args, **kwargs)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+The&nbsp;assert&nbsp;passes&nbsp;if&nbsp;the&nbsp;mock&nbsp;has&nbsp;*ever*&nbsp;been&nbsp;called,&nbsp;unlike<br>
+`assert_called_with`&nbsp;and&nbsp;`assert_called_once_with`&nbsp;that&nbsp;only&nbsp;pass&nbsp;if<br>
+the&nbsp;call&nbsp;is&nbsp;the&nbsp;most&nbsp;recent&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="JstlView-assert_called"><strong>assert_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;at&nbsp;least&nbsp;once</tt></dd></dl>
+
+<dl><dt><a name="JstlView-assert_called_once"><strong>assert_called_once</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;only&nbsp;once.</tt></dd></dl>
+
+<dl><dt><a name="JstlView-assert_called_once_with"><strong>assert_called_once_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;exactly&nbsp;once&nbsp;and&nbsp;that&nbsp;that&nbsp;call&nbsp;was<br>
+with&nbsp;the&nbsp;specified&nbsp;arguments.</tt></dd></dl>
+
+<dl><dt><a name="JstlView-assert_called_with"><strong>assert_called_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+Raises&nbsp;an&nbsp;AssertionError&nbsp;if&nbsp;the&nbsp;args&nbsp;and&nbsp;keyword&nbsp;args&nbsp;passed&nbsp;in&nbsp;are<br>
+different&nbsp;to&nbsp;the&nbsp;last&nbsp;call&nbsp;to&nbsp;the&nbsp;mock.</tt></dd></dl>
+
+<dl><dt><a name="JstlView-assert_has_calls"><strong>assert_has_calls</strong></a>(self, calls, any_order=False)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;calls.<br>
+The&nbsp;`mock_calls`&nbsp;list&nbsp;is&nbsp;checked&nbsp;for&nbsp;the&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;False&nbsp;(the&nbsp;default)&nbsp;then&nbsp;the&nbsp;calls&nbsp;must&nbsp;be<br>
+sequential.&nbsp;There&nbsp;can&nbsp;be&nbsp;extra&nbsp;calls&nbsp;before&nbsp;or&nbsp;after&nbsp;the<br>
+specified&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;True&nbsp;then&nbsp;the&nbsp;calls&nbsp;can&nbsp;be&nbsp;in&nbsp;any&nbsp;order,&nbsp;but<br>
+they&nbsp;must&nbsp;all&nbsp;appear&nbsp;in&nbsp;`mock_calls`.</tt></dd></dl>
+
+<dl><dt><a name="JstlView-assert_not_called"><strong>assert_not_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;never&nbsp;called.</tt></dd></dl>
+
+<dl><dt><a name="JstlView-attach_mock"><strong>attach_mock</strong></a>(self, mock, attribute)</dt><dd><tt>Attach&nbsp;a&nbsp;mock&nbsp;as&nbsp;an&nbsp;attribute&nbsp;of&nbsp;this&nbsp;one,&nbsp;replacing&nbsp;its&nbsp;name&nbsp;and<br>
+parent.&nbsp;Calls&nbsp;to&nbsp;the&nbsp;attached&nbsp;mock&nbsp;will&nbsp;be&nbsp;recorded&nbsp;in&nbsp;the<br>
+`method_calls`&nbsp;and&nbsp;`mock_calls`&nbsp;attributes&nbsp;of&nbsp;this&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="JstlView-configure_mock"><strong>configure_mock</strong></a>(self, **kwargs)</dt><dd><tt>Set&nbsp;attributes&nbsp;on&nbsp;the&nbsp;mock&nbsp;through&nbsp;keyword&nbsp;arguments.<br>
+&nbsp;<br>
+Attributes&nbsp;plus&nbsp;return&nbsp;values&nbsp;and&nbsp;side&nbsp;effects&nbsp;can&nbsp;be&nbsp;set&nbsp;on&nbsp;child<br>
+mocks&nbsp;using&nbsp;standard&nbsp;dot&nbsp;notation&nbsp;and&nbsp;unpacking&nbsp;a&nbsp;dictionary&nbsp;in&nbsp;the<br>
+method&nbsp;call:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;attrs&nbsp;=&nbsp;{'method.return_value':&nbsp;3,&nbsp;'other.side_effect':&nbsp;KeyError}<br>
+&gt;&gt;&gt;&nbsp;mock.<a href="#JstlView-configure_mock">configure_mock</a>(**attrs)</tt></dd></dl>
+
+<dl><dt><a name="JstlView-reset_mock"><strong>reset_mock</strong></a>(self, visited=None, *, return_value=False, side_effect=False)</dt><dd><tt>Restore&nbsp;the&nbsp;mock&nbsp;<a href="builtins.html#object">object</a>&nbsp;to&nbsp;its&nbsp;initial&nbsp;state.</tt></dd></dl>
+
+<hr>
+Static methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="JstlView-__new__"><strong>__new__</strong></a>(cls, *args, **kw)</dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#object">object</a>.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><strong>__class__</strong></dt>
+</dl>
+<dl><dt><strong>call_args</strong></dt>
+</dl>
+<dl><dt><strong>call_args_list</strong></dt>
+</dl>
+<dl><dt><strong>call_count</strong></dt>
+</dl>
+<dl><dt><strong>called</strong></dt>
+</dl>
+<dl><dt><strong>mock_calls</strong></dt>
+</dl>
+<dl><dt><strong>return_value</strong></dt>
+</dl>
+<dl><dt><strong>side_effect</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Serializable">class <strong>Serializable</strong></a>(<a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Serializable">Serializable</a>(*args,&nbsp;**kw)<br>
+&nbsp;<br>
+<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;is&nbsp;a&nbsp;subclass&nbsp;of&nbsp;Mock&nbsp;with&nbsp;default&nbsp;implementations<br>
+of&nbsp;most&nbsp;of&nbsp;the&nbsp;magic&nbsp;methods.&nbsp;You&nbsp;can&nbsp;use&nbsp;<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;without&nbsp;having&nbsp;to<br>
+configure&nbsp;the&nbsp;magic&nbsp;methods&nbsp;yourself.<br>
+&nbsp;<br>
+If&nbsp;you&nbsp;use&nbsp;the&nbsp;`spec`&nbsp;or&nbsp;`spec_set`&nbsp;arguments&nbsp;then&nbsp;*only*&nbsp;magic<br>
+methods&nbsp;that&nbsp;exist&nbsp;in&nbsp;the&nbsp;spec&nbsp;will&nbsp;be&nbsp;created.<br>
+&nbsp;<br>
+Attributes&nbsp;and&nbsp;the&nbsp;return&nbsp;value&nbsp;of&nbsp;a&nbsp;`<a href="unittest.mock.html#MagicMock">MagicMock</a>`&nbsp;will&nbsp;also&nbsp;be&nbsp;`MagicMocks`.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.utils.mock.type.html#Serializable">Serializable</a></dd>
+<dd><a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a></dd>
+<dd><a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a></dd>
+<dd><a href="unittest.mock.html#Mock">unittest.mock.Mock</a></dd>
+<dd><a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a></dd>
+<dd><a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a></dd>
+<dd><a href="unittest.mock.html#Base">unittest.mock.Base</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>:<br>
+<dl><dt><a name="Serializable-mock_add_spec"><strong>mock_add_spec</strong></a>(self, spec, spec_set=False)</dt><dd><tt>Add&nbsp;a&nbsp;spec&nbsp;to&nbsp;a&nbsp;mock.&nbsp;`spec`&nbsp;can&nbsp;either&nbsp;be&nbsp;an&nbsp;<a href="builtins.html#object">object</a>&nbsp;or&nbsp;a<br>
+list&nbsp;of&nbsp;strings.&nbsp;Only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;`spec`&nbsp;can&nbsp;be&nbsp;fetched&nbsp;as<br>
+attributes&nbsp;from&nbsp;the&nbsp;mock.<br>
+&nbsp;<br>
+If&nbsp;`spec_set`&nbsp;is&nbsp;True&nbsp;then&nbsp;only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;spec&nbsp;can&nbsp;be&nbsp;set.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><a name="Serializable-__init__"><strong>__init__</strong></a>(self, *args, **kw)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a>:<br>
+<dl><dt><a name="Serializable-__call__"><strong>__call__</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>Call&nbsp;self&nbsp;as&nbsp;a&nbsp;function.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="Serializable-__delattr__"><strong>__delattr__</strong></a>(self, name)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="Serializable-__dir__"><strong>__dir__</strong></a>(self)</dt><dd><tt>Filter&nbsp;the&nbsp;output&nbsp;of&nbsp;`dir(mock)`&nbsp;to&nbsp;only&nbsp;useful&nbsp;members.</tt></dd></dl>
+
+<dl><dt><a name="Serializable-__getattr__"><strong>__getattr__</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="Serializable-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="Serializable-__setattr__"><strong>__setattr__</strong></a>(self, name, value)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="Serializable-assert_any_call"><strong>assert_any_call</strong></a>(self, *args, **kwargs)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+The&nbsp;assert&nbsp;passes&nbsp;if&nbsp;the&nbsp;mock&nbsp;has&nbsp;*ever*&nbsp;been&nbsp;called,&nbsp;unlike<br>
+`assert_called_with`&nbsp;and&nbsp;`assert_called_once_with`&nbsp;that&nbsp;only&nbsp;pass&nbsp;if<br>
+the&nbsp;call&nbsp;is&nbsp;the&nbsp;most&nbsp;recent&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="Serializable-assert_called"><strong>assert_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;at&nbsp;least&nbsp;once</tt></dd></dl>
+
+<dl><dt><a name="Serializable-assert_called_once"><strong>assert_called_once</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;only&nbsp;once.</tt></dd></dl>
+
+<dl><dt><a name="Serializable-assert_called_once_with"><strong>assert_called_once_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;exactly&nbsp;once&nbsp;and&nbsp;that&nbsp;that&nbsp;call&nbsp;was<br>
+with&nbsp;the&nbsp;specified&nbsp;arguments.</tt></dd></dl>
+
+<dl><dt><a name="Serializable-assert_called_with"><strong>assert_called_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+Raises&nbsp;an&nbsp;AssertionError&nbsp;if&nbsp;the&nbsp;args&nbsp;and&nbsp;keyword&nbsp;args&nbsp;passed&nbsp;in&nbsp;are<br>
+different&nbsp;to&nbsp;the&nbsp;last&nbsp;call&nbsp;to&nbsp;the&nbsp;mock.</tt></dd></dl>
+
+<dl><dt><a name="Serializable-assert_has_calls"><strong>assert_has_calls</strong></a>(self, calls, any_order=False)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;calls.<br>
+The&nbsp;`mock_calls`&nbsp;list&nbsp;is&nbsp;checked&nbsp;for&nbsp;the&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;False&nbsp;(the&nbsp;default)&nbsp;then&nbsp;the&nbsp;calls&nbsp;must&nbsp;be<br>
+sequential.&nbsp;There&nbsp;can&nbsp;be&nbsp;extra&nbsp;calls&nbsp;before&nbsp;or&nbsp;after&nbsp;the<br>
+specified&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;True&nbsp;then&nbsp;the&nbsp;calls&nbsp;can&nbsp;be&nbsp;in&nbsp;any&nbsp;order,&nbsp;but<br>
+they&nbsp;must&nbsp;all&nbsp;appear&nbsp;in&nbsp;`mock_calls`.</tt></dd></dl>
+
+<dl><dt><a name="Serializable-assert_not_called"><strong>assert_not_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;never&nbsp;called.</tt></dd></dl>
+
+<dl><dt><a name="Serializable-attach_mock"><strong>attach_mock</strong></a>(self, mock, attribute)</dt><dd><tt>Attach&nbsp;a&nbsp;mock&nbsp;as&nbsp;an&nbsp;attribute&nbsp;of&nbsp;this&nbsp;one,&nbsp;replacing&nbsp;its&nbsp;name&nbsp;and<br>
+parent.&nbsp;Calls&nbsp;to&nbsp;the&nbsp;attached&nbsp;mock&nbsp;will&nbsp;be&nbsp;recorded&nbsp;in&nbsp;the<br>
+`method_calls`&nbsp;and&nbsp;`mock_calls`&nbsp;attributes&nbsp;of&nbsp;this&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="Serializable-configure_mock"><strong>configure_mock</strong></a>(self, **kwargs)</dt><dd><tt>Set&nbsp;attributes&nbsp;on&nbsp;the&nbsp;mock&nbsp;through&nbsp;keyword&nbsp;arguments.<br>
+&nbsp;<br>
+Attributes&nbsp;plus&nbsp;return&nbsp;values&nbsp;and&nbsp;side&nbsp;effects&nbsp;can&nbsp;be&nbsp;set&nbsp;on&nbsp;child<br>
+mocks&nbsp;using&nbsp;standard&nbsp;dot&nbsp;notation&nbsp;and&nbsp;unpacking&nbsp;a&nbsp;dictionary&nbsp;in&nbsp;the<br>
+method&nbsp;call:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;attrs&nbsp;=&nbsp;{'method.return_value':&nbsp;3,&nbsp;'other.side_effect':&nbsp;KeyError}<br>
+&gt;&gt;&gt;&nbsp;mock.<a href="#Serializable-configure_mock">configure_mock</a>(**attrs)</tt></dd></dl>
+
+<dl><dt><a name="Serializable-reset_mock"><strong>reset_mock</strong></a>(self, visited=None, *, return_value=False, side_effect=False)</dt><dd><tt>Restore&nbsp;the&nbsp;mock&nbsp;<a href="builtins.html#object">object</a>&nbsp;to&nbsp;its&nbsp;initial&nbsp;state.</tt></dd></dl>
+
+<hr>
+Static methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="Serializable-__new__"><strong>__new__</strong></a>(cls, *args, **kw)</dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#object">object</a>.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><strong>__class__</strong></dt>
+</dl>
+<dl><dt><strong>call_args</strong></dt>
+</dl>
+<dl><dt><strong>call_args_list</strong></dt>
+</dl>
+<dl><dt><strong>call_count</strong></dt>
+</dl>
+<dl><dt><strong>called</strong></dt>
+</dl>
+<dl><dt><strong>mock_calls</strong></dt>
+</dl>
+<dl><dt><strong>return_value</strong></dt>
+</dl>
+<dl><dt><strong>side_effect</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Servlet">class <strong>Servlet</strong></a>(<a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Servlet">Servlet</a>(*args,&nbsp;**kw)<br>
+&nbsp;<br>
+<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;is&nbsp;a&nbsp;subclass&nbsp;of&nbsp;Mock&nbsp;with&nbsp;default&nbsp;implementations<br>
+of&nbsp;most&nbsp;of&nbsp;the&nbsp;magic&nbsp;methods.&nbsp;You&nbsp;can&nbsp;use&nbsp;<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;without&nbsp;having&nbsp;to<br>
+configure&nbsp;the&nbsp;magic&nbsp;methods&nbsp;yourself.<br>
+&nbsp;<br>
+If&nbsp;you&nbsp;use&nbsp;the&nbsp;`spec`&nbsp;or&nbsp;`spec_set`&nbsp;arguments&nbsp;then&nbsp;*only*&nbsp;magic<br>
+methods&nbsp;that&nbsp;exist&nbsp;in&nbsp;the&nbsp;spec&nbsp;will&nbsp;be&nbsp;created.<br>
+&nbsp;<br>
+Attributes&nbsp;and&nbsp;the&nbsp;return&nbsp;value&nbsp;of&nbsp;a&nbsp;`<a href="unittest.mock.html#MagicMock">MagicMock</a>`&nbsp;will&nbsp;also&nbsp;be&nbsp;`MagicMocks`.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.utils.mock.type.html#Servlet">Servlet</a></dd>
+<dd><a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a></dd>
+<dd><a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a></dd>
+<dd><a href="unittest.mock.html#Mock">unittest.mock.Mock</a></dd>
+<dd><a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a></dd>
+<dd><a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a></dd>
+<dd><a href="unittest.mock.html#Base">unittest.mock.Base</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>:<br>
+<dl><dt><a name="Servlet-mock_add_spec"><strong>mock_add_spec</strong></a>(self, spec, spec_set=False)</dt><dd><tt>Add&nbsp;a&nbsp;spec&nbsp;to&nbsp;a&nbsp;mock.&nbsp;`spec`&nbsp;can&nbsp;either&nbsp;be&nbsp;an&nbsp;<a href="builtins.html#object">object</a>&nbsp;or&nbsp;a<br>
+list&nbsp;of&nbsp;strings.&nbsp;Only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;`spec`&nbsp;can&nbsp;be&nbsp;fetched&nbsp;as<br>
+attributes&nbsp;from&nbsp;the&nbsp;mock.<br>
+&nbsp;<br>
+If&nbsp;`spec_set`&nbsp;is&nbsp;True&nbsp;then&nbsp;only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;spec&nbsp;can&nbsp;be&nbsp;set.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><a name="Servlet-__init__"><strong>__init__</strong></a>(self, *args, **kw)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a>:<br>
+<dl><dt><a name="Servlet-__call__"><strong>__call__</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>Call&nbsp;self&nbsp;as&nbsp;a&nbsp;function.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="Servlet-__delattr__"><strong>__delattr__</strong></a>(self, name)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="Servlet-__dir__"><strong>__dir__</strong></a>(self)</dt><dd><tt>Filter&nbsp;the&nbsp;output&nbsp;of&nbsp;`dir(mock)`&nbsp;to&nbsp;only&nbsp;useful&nbsp;members.</tt></dd></dl>
+
+<dl><dt><a name="Servlet-__getattr__"><strong>__getattr__</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="Servlet-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="Servlet-__setattr__"><strong>__setattr__</strong></a>(self, name, value)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="Servlet-assert_any_call"><strong>assert_any_call</strong></a>(self, *args, **kwargs)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+The&nbsp;assert&nbsp;passes&nbsp;if&nbsp;the&nbsp;mock&nbsp;has&nbsp;*ever*&nbsp;been&nbsp;called,&nbsp;unlike<br>
+`assert_called_with`&nbsp;and&nbsp;`assert_called_once_with`&nbsp;that&nbsp;only&nbsp;pass&nbsp;if<br>
+the&nbsp;call&nbsp;is&nbsp;the&nbsp;most&nbsp;recent&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="Servlet-assert_called"><strong>assert_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;at&nbsp;least&nbsp;once</tt></dd></dl>
+
+<dl><dt><a name="Servlet-assert_called_once"><strong>assert_called_once</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;only&nbsp;once.</tt></dd></dl>
+
+<dl><dt><a name="Servlet-assert_called_once_with"><strong>assert_called_once_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;exactly&nbsp;once&nbsp;and&nbsp;that&nbsp;that&nbsp;call&nbsp;was<br>
+with&nbsp;the&nbsp;specified&nbsp;arguments.</tt></dd></dl>
+
+<dl><dt><a name="Servlet-assert_called_with"><strong>assert_called_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+Raises&nbsp;an&nbsp;AssertionError&nbsp;if&nbsp;the&nbsp;args&nbsp;and&nbsp;keyword&nbsp;args&nbsp;passed&nbsp;in&nbsp;are<br>
+different&nbsp;to&nbsp;the&nbsp;last&nbsp;call&nbsp;to&nbsp;the&nbsp;mock.</tt></dd></dl>
+
+<dl><dt><a name="Servlet-assert_has_calls"><strong>assert_has_calls</strong></a>(self, calls, any_order=False)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;calls.<br>
+The&nbsp;`mock_calls`&nbsp;list&nbsp;is&nbsp;checked&nbsp;for&nbsp;the&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;False&nbsp;(the&nbsp;default)&nbsp;then&nbsp;the&nbsp;calls&nbsp;must&nbsp;be<br>
+sequential.&nbsp;There&nbsp;can&nbsp;be&nbsp;extra&nbsp;calls&nbsp;before&nbsp;or&nbsp;after&nbsp;the<br>
+specified&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;True&nbsp;then&nbsp;the&nbsp;calls&nbsp;can&nbsp;be&nbsp;in&nbsp;any&nbsp;order,&nbsp;but<br>
+they&nbsp;must&nbsp;all&nbsp;appear&nbsp;in&nbsp;`mock_calls`.</tt></dd></dl>
+
+<dl><dt><a name="Servlet-assert_not_called"><strong>assert_not_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;never&nbsp;called.</tt></dd></dl>
+
+<dl><dt><a name="Servlet-attach_mock"><strong>attach_mock</strong></a>(self, mock, attribute)</dt><dd><tt>Attach&nbsp;a&nbsp;mock&nbsp;as&nbsp;an&nbsp;attribute&nbsp;of&nbsp;this&nbsp;one,&nbsp;replacing&nbsp;its&nbsp;name&nbsp;and<br>
+parent.&nbsp;Calls&nbsp;to&nbsp;the&nbsp;attached&nbsp;mock&nbsp;will&nbsp;be&nbsp;recorded&nbsp;in&nbsp;the<br>
+`method_calls`&nbsp;and&nbsp;`mock_calls`&nbsp;attributes&nbsp;of&nbsp;this&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="Servlet-configure_mock"><strong>configure_mock</strong></a>(self, **kwargs)</dt><dd><tt>Set&nbsp;attributes&nbsp;on&nbsp;the&nbsp;mock&nbsp;through&nbsp;keyword&nbsp;arguments.<br>
+&nbsp;<br>
+Attributes&nbsp;plus&nbsp;return&nbsp;values&nbsp;and&nbsp;side&nbsp;effects&nbsp;can&nbsp;be&nbsp;set&nbsp;on&nbsp;child<br>
+mocks&nbsp;using&nbsp;standard&nbsp;dot&nbsp;notation&nbsp;and&nbsp;unpacking&nbsp;a&nbsp;dictionary&nbsp;in&nbsp;the<br>
+method&nbsp;call:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;attrs&nbsp;=&nbsp;{'method.return_value':&nbsp;3,&nbsp;'other.side_effect':&nbsp;KeyError}<br>
+&gt;&gt;&gt;&nbsp;mock.<a href="#Servlet-configure_mock">configure_mock</a>(**attrs)</tt></dd></dl>
+
+<dl><dt><a name="Servlet-reset_mock"><strong>reset_mock</strong></a>(self, visited=None, *, return_value=False, side_effect=False)</dt><dd><tt>Restore&nbsp;the&nbsp;mock&nbsp;<a href="builtins.html#object">object</a>&nbsp;to&nbsp;its&nbsp;initial&nbsp;state.</tt></dd></dl>
+
+<hr>
+Static methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="Servlet-__new__"><strong>__new__</strong></a>(cls, *args, **kw)</dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#object">object</a>.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><strong>__class__</strong></dt>
+</dl>
+<dl><dt><strong>call_args</strong></dt>
+</dl>
+<dl><dt><strong>call_args_list</strong></dt>
+</dl>
+<dl><dt><strong>call_count</strong></dt>
+</dl>
+<dl><dt><strong>called</strong></dt>
+</dl>
+<dl><dt><strong>mock_calls</strong></dt>
+</dl>
+<dl><dt><strong>return_value</strong></dt>
+</dl>
+<dl><dt><strong>side_effect</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ServletRequestWrapper">class <strong>ServletRequestWrapper</strong></a>(<a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#ServletRequestWrapper">ServletRequestWrapper</a>(*args,&nbsp;**kw)<br>
+&nbsp;<br>
+<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;is&nbsp;a&nbsp;subclass&nbsp;of&nbsp;Mock&nbsp;with&nbsp;default&nbsp;implementations<br>
+of&nbsp;most&nbsp;of&nbsp;the&nbsp;magic&nbsp;methods.&nbsp;You&nbsp;can&nbsp;use&nbsp;<a href="unittest.mock.html#MagicMock">MagicMock</a>&nbsp;without&nbsp;having&nbsp;to<br>
+configure&nbsp;the&nbsp;magic&nbsp;methods&nbsp;yourself.<br>
+&nbsp;<br>
+If&nbsp;you&nbsp;use&nbsp;the&nbsp;`spec`&nbsp;or&nbsp;`spec_set`&nbsp;arguments&nbsp;then&nbsp;*only*&nbsp;magic<br>
+methods&nbsp;that&nbsp;exist&nbsp;in&nbsp;the&nbsp;spec&nbsp;will&nbsp;be&nbsp;created.<br>
+&nbsp;<br>
+Attributes&nbsp;and&nbsp;the&nbsp;return&nbsp;value&nbsp;of&nbsp;a&nbsp;`<a href="unittest.mock.html#MagicMock">MagicMock</a>`&nbsp;will&nbsp;also&nbsp;be&nbsp;`MagicMocks`.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.utils.mock.type.html#ServletRequestWrapper">ServletRequestWrapper</a></dd>
+<dd><a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a></dd>
+<dd><a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a></dd>
+<dd><a href="unittest.mock.html#Mock">unittest.mock.Mock</a></dd>
+<dd><a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a></dd>
+<dd><a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a></dd>
+<dd><a href="unittest.mock.html#Base">unittest.mock.Base</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMock">unittest.mock.MagicMock</a>:<br>
+<dl><dt><a name="ServletRequestWrapper-mock_add_spec"><strong>mock_add_spec</strong></a>(self, spec, spec_set=False)</dt><dd><tt>Add&nbsp;a&nbsp;spec&nbsp;to&nbsp;a&nbsp;mock.&nbsp;`spec`&nbsp;can&nbsp;either&nbsp;be&nbsp;an&nbsp;<a href="builtins.html#object">object</a>&nbsp;or&nbsp;a<br>
+list&nbsp;of&nbsp;strings.&nbsp;Only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;`spec`&nbsp;can&nbsp;be&nbsp;fetched&nbsp;as<br>
+attributes&nbsp;from&nbsp;the&nbsp;mock.<br>
+&nbsp;<br>
+If&nbsp;`spec_set`&nbsp;is&nbsp;True&nbsp;then&nbsp;only&nbsp;attributes&nbsp;on&nbsp;the&nbsp;spec&nbsp;can&nbsp;be&nbsp;set.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><a name="ServletRequestWrapper-__init__"><strong>__init__</strong></a>(self, *args, **kw)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#MagicMixin">unittest.mock.MagicMixin</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Methods inherited from <a href="unittest.mock.html#CallableMixin">unittest.mock.CallableMixin</a>:<br>
+<dl><dt><a name="ServletRequestWrapper-__call__"><strong>__call__</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>Call&nbsp;self&nbsp;as&nbsp;a&nbsp;function.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="ServletRequestWrapper-__delattr__"><strong>__delattr__</strong></a>(self, name)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-__dir__"><strong>__dir__</strong></a>(self)</dt><dd><tt>Filter&nbsp;the&nbsp;output&nbsp;of&nbsp;`dir(mock)`&nbsp;to&nbsp;only&nbsp;useful&nbsp;members.</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-__getattr__"><strong>__getattr__</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="ServletRequestWrapper-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-__setattr__"><strong>__setattr__</strong></a>(self, name, value)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-assert_any_call"><strong>assert_any_call</strong></a>(self, *args, **kwargs)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+The&nbsp;assert&nbsp;passes&nbsp;if&nbsp;the&nbsp;mock&nbsp;has&nbsp;*ever*&nbsp;been&nbsp;called,&nbsp;unlike<br>
+`assert_called_with`&nbsp;and&nbsp;`assert_called_once_with`&nbsp;that&nbsp;only&nbsp;pass&nbsp;if<br>
+the&nbsp;call&nbsp;is&nbsp;the&nbsp;most&nbsp;recent&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-assert_called"><strong>assert_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;at&nbsp;least&nbsp;once</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-assert_called_once"><strong>assert_called_once</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;only&nbsp;once.</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-assert_called_once_with"><strong>assert_called_once_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;exactly&nbsp;once&nbsp;and&nbsp;that&nbsp;that&nbsp;call&nbsp;was<br>
+with&nbsp;the&nbsp;specified&nbsp;arguments.</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-assert_called_with"><strong>assert_called_with</strong></a>(_mock_self, *args, **kwargs)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;arguments.<br>
+&nbsp;<br>
+Raises&nbsp;an&nbsp;AssertionError&nbsp;if&nbsp;the&nbsp;args&nbsp;and&nbsp;keyword&nbsp;args&nbsp;passed&nbsp;in&nbsp;are<br>
+different&nbsp;to&nbsp;the&nbsp;last&nbsp;call&nbsp;to&nbsp;the&nbsp;mock.</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-assert_has_calls"><strong>assert_has_calls</strong></a>(self, calls, any_order=False)</dt><dd><tt>assert&nbsp;the&nbsp;mock&nbsp;has&nbsp;been&nbsp;called&nbsp;with&nbsp;the&nbsp;specified&nbsp;calls.<br>
+The&nbsp;`mock_calls`&nbsp;list&nbsp;is&nbsp;checked&nbsp;for&nbsp;the&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;False&nbsp;(the&nbsp;default)&nbsp;then&nbsp;the&nbsp;calls&nbsp;must&nbsp;be<br>
+sequential.&nbsp;There&nbsp;can&nbsp;be&nbsp;extra&nbsp;calls&nbsp;before&nbsp;or&nbsp;after&nbsp;the<br>
+specified&nbsp;calls.<br>
+&nbsp;<br>
+If&nbsp;`any_order`&nbsp;is&nbsp;True&nbsp;then&nbsp;the&nbsp;calls&nbsp;can&nbsp;be&nbsp;in&nbsp;any&nbsp;order,&nbsp;but<br>
+they&nbsp;must&nbsp;all&nbsp;appear&nbsp;in&nbsp;`mock_calls`.</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-assert_not_called"><strong>assert_not_called</strong></a>(_mock_self)</dt><dd><tt>assert&nbsp;that&nbsp;the&nbsp;mock&nbsp;was&nbsp;never&nbsp;called.</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-attach_mock"><strong>attach_mock</strong></a>(self, mock, attribute)</dt><dd><tt>Attach&nbsp;a&nbsp;mock&nbsp;as&nbsp;an&nbsp;attribute&nbsp;of&nbsp;this&nbsp;one,&nbsp;replacing&nbsp;its&nbsp;name&nbsp;and<br>
+parent.&nbsp;Calls&nbsp;to&nbsp;the&nbsp;attached&nbsp;mock&nbsp;will&nbsp;be&nbsp;recorded&nbsp;in&nbsp;the<br>
+`method_calls`&nbsp;and&nbsp;`mock_calls`&nbsp;attributes&nbsp;of&nbsp;this&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-configure_mock"><strong>configure_mock</strong></a>(self, **kwargs)</dt><dd><tt>Set&nbsp;attributes&nbsp;on&nbsp;the&nbsp;mock&nbsp;through&nbsp;keyword&nbsp;arguments.<br>
+&nbsp;<br>
+Attributes&nbsp;plus&nbsp;return&nbsp;values&nbsp;and&nbsp;side&nbsp;effects&nbsp;can&nbsp;be&nbsp;set&nbsp;on&nbsp;child<br>
+mocks&nbsp;using&nbsp;standard&nbsp;dot&nbsp;notation&nbsp;and&nbsp;unpacking&nbsp;a&nbsp;dictionary&nbsp;in&nbsp;the<br>
+method&nbsp;call:<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;attrs&nbsp;=&nbsp;{'method.return_value':&nbsp;3,&nbsp;'other.side_effect':&nbsp;KeyError}<br>
+&gt;&gt;&gt;&nbsp;mock.<a href="#ServletRequestWrapper-configure_mock">configure_mock</a>(**attrs)</tt></dd></dl>
+
+<dl><dt><a name="ServletRequestWrapper-reset_mock"><strong>reset_mock</strong></a>(self, visited=None, *, return_value=False, side_effect=False)</dt><dd><tt>Restore&nbsp;the&nbsp;mock&nbsp;<a href="builtins.html#object">object</a>&nbsp;to&nbsp;its&nbsp;initial&nbsp;state.</tt></dd></dl>
+
+<hr>
+Static methods inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><a name="ServletRequestWrapper-__new__"><strong>__new__</strong></a>(cls, *args, **kw)</dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#object">object</a>.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="unittest.mock.html#NonCallableMock">unittest.mock.NonCallableMock</a>:<br>
+<dl><dt><strong>__class__</strong></dt>
+</dl>
+<dl><dt><strong>call_args</strong></dt>
+</dl>
+<dl><dt><strong>call_args_list</strong></dt>
+</dl>
+<dl><dt><strong>call_count</strong></dt>
+</dl>
+<dl><dt><strong>called</strong></dt>
+</dl>
+<dl><dt><strong>mock_calls</strong></dt>
+</dl>
+<dl><dt><strong>return_value</strong></dt>
+</dl>
+<dl><dt><strong>side_effect</strong></dt>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: class AbstractCachingViewResolver</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><strong>springframework.web.servlet.view.AbstractCachingViewResolver</strong> = <a name="springframework.web.servlet.view.AbstractCachingViewResolver">class AbstractCachingViewResolver</a>(<a href="springframework.web.context.support.WebApplicationObjectSupport.html#WebApplicationObjectSupport">springframework.web.context.support.WebApplicationObjectSupport.WebApplicationObjectSupport</a>, <a href="springframework.web.servlet.ViewResolver.html#ViewResolver">springframework.web.servlet.ViewResolver.ViewResolver</a>, <a href="abc.html#ABC">abc.ABC</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Helper&nbsp;class&nbsp;that&nbsp;provides&nbsp;a&nbsp;standard&nbsp;way&nbsp;to&nbsp;create&nbsp;an&nbsp;ABC&nbsp;using<br>
+inheritance.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.web.servlet.view.AbstractCachingViewResolver.html#AbstractCachingViewResolver">AbstractCachingViewResolver</a></dd>
+<dd><a href="springframework.web.context.support.WebApplicationObjectSupport.html#WebApplicationObjectSupport">springframework.web.context.support.WebApplicationObjectSupport.WebApplicationObjectSupport</a></dd>
+<dd><a href="springframework.context.support.ApplicationObjectSupport.html#ApplicationObjectSupport">springframework.context.support.ApplicationObjectSupport.ApplicationObjectSupport</a></dd>
+<dd><a href="springframework.context.ApplicationContextAware.html#ApplicationContextAware">springframework.context.ApplicationContextAware.ApplicationContextAware</a></dd>
+<dd><a href="springframework.web.context.ServletContextAware.html#ServletContextAware">springframework.web.context.ServletContextAware.ServletContextAware</a></dd>
+<dd><a href="springframework.beans.factory.Aware.html#Aware">springframework.beans.factory.Aware.Aware</a></dd>
+<dd><a href="springframework.web.servlet.ViewResolver.html#ViewResolver">springframework.web.servlet.ViewResolver.ViewResolver</a></dd>
+<dd><a href="abc.html#ABC">abc.ABC</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AbstractCachingViewResolver-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-clear_cache"><strong>clear_cache</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-create_view"><strong>create_view</strong></a>(self, viewName: str, locale: &lt;MagicMock name='Locale' id='4496043144'&gt;) -&gt; springframework.web.servlet.View.View</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-get_cache_filter"><strong>get_cache_filter</strong></a>(self) -&gt; springframework.web.servlet.view.AbstractCachingViewResolver.CacheFilter</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-get_cache_key"><strong>get_cache_key</strong></a>(self, viewName: str, locale: &lt;MagicMock name='Locale' id='4496043144'&gt;) -&gt; object</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-getcache_limit"><strong>getcache_limit</strong></a>(self) -&gt; int</dt><dd><tt>#&nbsp;Return&nbsp;the&nbsp;maximum&nbsp;number&nbsp;of&nbsp;entries&nbsp;for&nbsp;the&nbsp;view&nbsp;cache.</tt></dd></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-is_cache"><strong>is_cache</strong></a>(self) -&gt; bool</dt><dd><tt>#&nbsp;Return&nbsp;if&nbsp;caching&nbsp;is&nbsp;enabled.</tt></dd></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-is_cache_unresolved"><strong>is_cache_unresolved</strong></a>(self) -&gt; bool</dt><dd><tt>#&nbsp;Return&nbsp;if&nbsp;caching&nbsp;of&nbsp;unresolved&nbsp;views&nbsp;is&nbsp;enabled.</tt></dd></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-load_view"><strong>load_view</strong></a>(self, viewName: str, locale: &lt;MagicMock name='Locale' id='4496043144'&gt;) -&gt; springframework.web.servlet.View.View</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-remove_from_cache"><strong>remove_from_cache</strong></a>(self, viewName: str, locale: &lt;MagicMock name='Locale' id='4496043144'&gt;) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-resolve_view_name"><strong>resolve_view_name</strong></a>(self, viewName: str, locale: &lt;MagicMock name='Locale' id='4496043144'&gt;) -&gt; springframework.web.servlet.View.View</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-set_cache"><strong>set_cache</strong></a>(self, cache: bool) -&gt; None</dt><dd><tt>#&nbsp;Enable&nbsp;or&nbsp;disable&nbsp;caching.<br>
+#&nbsp;Disable&nbsp;this&nbsp;only&nbsp;for&nbsp;debugging&nbsp;and&nbsp;development.</tt></dd></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-set_cache_filter"><strong>set_cache_filter</strong></a>(self, cacheFilter: springframework.web.servlet.view.AbstractCachingViewResolver.CacheFilter) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-set_cache_limit"><strong>set_cache_limit</strong></a>(self, cacheLimit: int) -&gt; None</dt><dd><tt>#&nbsp;Specify&nbsp;the&nbsp;maximum&nbsp;number&nbsp;of&nbsp;entries&nbsp;for&nbsp;the&nbsp;view&nbsp;cache.<br>
+#&nbsp;Default&nbsp;is&nbsp;1024.</tt></dd></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-set_cache_unresolved"><strong>set_cache_unresolved</strong></a>(self, cacheUnresolved: bool) -&gt; None</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>DEFAULT_CACHE_LIMIT</strong> = 1024</dl>
+
+<dl><dt><strong>__abstractmethods__</strong> = frozenset({'load_view'})</dl>
+
+<dl><dt><strong>lock</strong> = &lt;unlocked _thread.lock object&gt;</dl>
+
+<hr>
+Methods inherited from <a href="springframework.web.context.support.WebApplicationObjectSupport.html#WebApplicationObjectSupport">springframework.web.context.support.WebApplicationObjectSupport.WebApplicationObjectSupport</a>:<br>
+<dl><dt><a name="AbstractCachingViewResolver-get_servlet_context"><strong>get_servlet_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-get_temp_dir"><strong>get_temp_dir</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-get_web_application_context"><strong>get_web_application_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-init_application_context"><strong>init_application_context</strong></a>(self, context: springframework.context.ApplicationContext.ApplicationContext = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-init_servlet_context"><strong>init_servlet_context</strong></a>(self, servlet_context: springframework.web.testfixture.servlet.MockServletContext.MockServletContext)</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-is_context_required"><strong>is_context_required</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-set_servlet_context"><strong>set_servlet_context</strong></a>(self, servlet_context: springframework.web.testfixture.servlet.MockServletContext.MockServletContext) -&gt; None</dt></dl>
+
+<hr>
+Methods inherited from <a href="springframework.context.support.ApplicationObjectSupport.html#ApplicationObjectSupport">springframework.context.support.ApplicationObjectSupport.ApplicationObjectSupport</a>:<br>
+<dl><dt><a name="AbstractCachingViewResolver-get_application_context"><strong>get_application_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-get_message_source_accessor"><strong>get_message_source_accessor</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-obtain_application_context"><strong>obtain_application_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-required_context_class"><strong>required_context_class</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractCachingViewResolver-set_application_context"><strong>set_application_context</strong></a>(self, context: springframework.context.ApplicationContext.ApplicationContext = None) -&gt; None</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="springframework.beans.factory.Aware.html#Aware">springframework.beans.factory.Aware.Aware</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table>
+</body></html>

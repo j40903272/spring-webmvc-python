@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: class MockServletContext</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><strong>springframework.web.testfixture.servlet.MockServletContext</strong> = <a name="springframework.web.testfixture.servlet.MockServletContext">class MockServletContext</a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>springframework.web.testfixture.servlet.<a href="#springframework.web.testfixture.servlet.MockServletContext-servletContextName">MockServletContext</a>(resourceBasePath:&nbsp;str&nbsp;=&nbsp;None,&nbsp;resourceLoader=None)&nbsp;-&amp;gt;&nbsp;None<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="MockServletContext-__init__"><strong>__init__</strong></a>(self, resourceBasePath: str = None, resourceLoader=None) -&gt; None</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="MockServletContext-add_init_parameter"><strong>add_init_parameter</strong></a>(self, name: str, value: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-add_mime_type"><strong>add_mime_type</strong></a>(self, fileExtension: str, mimeType: &lt;MagicMock name='MediaType' id='4496026592'&gt;) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-declare_roles"><strong>declare_roles</strong></a>(self, roleNames: list) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_attribute"><strong>get_attribute</strong></a>(self, name: str)</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_attribute_names"><strong>get_attribute_names</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_class_loader"><strong>get_class_loader</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_context"><strong>get_context</strong></a>(self, contextPath: str)</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_context_path"><strong>get_context_path</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_declared_roles"><strong>get_declared_roles</strong></a>(self) -&gt; set</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_default_dession_tracking_modes"><strong>get_default_dession_tracking_modes</strong></a>(self) -&gt; set</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_default_servlet_name"><strong>get_default_servlet_name</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_effective_major_version"><strong>get_effective_major_version</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_effective_session_tracking_modes"><strong>get_effective_session_tracking_modes</strong></a>(self) -&gt; set</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_init_parameter"><strong>get_init_parameter</strong></a>(self, name: str) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_init_parameter_names"><strong>get_init_parameter_names</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_major_version"><strong>get_major_version</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_mime_type"><strong>get_mime_type</strong></a>(self, filePath: str) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_minor_version"><strong>get_minor_version</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_named_dispatcher"><strong>get_named_dispatcher</strong></a>(self, path: str) -&gt; &lt;MagicMock name='RequestDispatcher' id='4496179832'&gt;</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_real_path"><strong>get_real_path</strong></a>(self, path: str) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_request_character_rncoding"><strong>get_request_character_rncoding</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_request_dispatcher"><strong>get_request_dispatcher</strong></a>(self, path: str) -&gt; &lt;MagicMock name='RequestDispatcher' id='4496179832'&gt;</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_resource"><strong>get_resource</strong></a>(self, path: str)</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_resource_as_stream"><strong>get_resource_as_stream</strong></a>(self, path: str)</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_resource_location"><strong>get_resource_location</strong></a>(self, path: str) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_resource_paths"><strong>get_resource_paths</strong></a>(self, path: str) -&gt; set</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_response_character_encoding"><strong>get_response_character_encoding</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_server_info"><strong>get_server_info</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_servlet"><strong>get_servlet</strong></a>(self, name: str)</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_servlet_context_name"><strong>get_servlet_context_name</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_servlet_names"><strong>get_servlet_names</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_servlets"><strong>get_servlets</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_session_cookie_config"><strong>get_session_cookie_config</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockServletContext-get_session_timeout"><strong>get_session_timeout</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockServletContext-log"><strong>log</strong></a>(self, message: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-register_context"><strong>register_context</strong></a>(self, contextPath: str, context) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-register_named_dispatcher"><strong>register_named_dispatcher</strong></a>(self, name: str, requestDispatcher: &lt;MagicMock name='RequestDispatcher' id='4496179832'&gt;) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-remove_attribute"><strong>remove_attribute</strong></a>(self, name: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_attribute"><strong>set_attribute</strong></a>(self, name: str, value=None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_context_path"><strong>set_context_path</strong></a>(self, contextPath: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_default_servlet_name"><strong>set_default_servlet_name</strong></a>(self, defaultServletName: str)</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_effective_major_version"><strong>set_effective_major_version</strong></a>(self, effectiveMajorVersion: int) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_init_parameter"><strong>set_init_parameter</strong></a>(self, name: str, value: str) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_major_version"><strong>set_major_version</strong></a>(self, majorVersion: int)</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_minor_version"><strong>set_minor_version</strong></a>(self, minorVersion: int) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_request_character_rncoding"><strong>set_request_character_rncoding</strong></a>(self, requestCharacterEncoding: str = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_response_character_encoding"><strong>set_response_character_encoding</strong></a>(self, responseCharacterEncoding: str = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_servlet_context_name"><strong>set_servlet_context_name</strong></a>(self, servletContextName: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_session_timeout"><strong>set_session_timeout</strong></a>(self, sessionTimeout: int) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-set_session_tracking_modes"><strong>set_session_tracking_modes</strong></a>(self, sessionTrackingModes: set) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockServletContext-unregister_named_dispatcher"><strong>unregister_named_dispatcher</strong></a>(self, name: str) -&gt; None</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>COMMON_DEFAULT_SERVLET_NAME</strong> = 'default'</dl>
+
+<dl><dt><strong>DEFAULT_SESSION_TRACKING_MODES</strong> = {&lt;MagicMock name='SessionTrackingMode.SSL' id='4495297280'&gt;, &lt;MagicMock name='SessionTrackingMode.COOKIE' id='4494486216'&gt;, &lt;MagicMock name='SessionTrackingMode.URL' id='4495280728'&gt;}</dl>
+
+<dl><dt><strong>TEMP_DIR_SYSTEM_PROPERTY</strong> = '/var/folders/gp/47g18gv52m737yd1bt2hlvcm0000gp/T'</dl>
+
+<dl><dt><strong>__annotations__</strong> = {'COMMON_DEFAULT_SERVLET_NAME': &lt;class 'str'&gt;, 'TEMP_DIR_SYSTEM_PROPERTY': &lt;class 'str'&gt;, 'contextPath': &lt;class 'str'&gt;, 'defaultServletName': &lt;class 'str'&gt;, 'effectiveMajorVersion': &lt;class 'int'&gt;, 'effectiveMinorVersion': &lt;class 'int'&gt;, 'majorVersion': &lt;class 'int'&gt;, 'minorVersion': &lt;class 'int'&gt;, 'requestCharacterEncoding': &lt;class 'str'&gt;, 'resourceBasePath': &lt;class 'str'&gt;, ...}</dl>
+
+<dl><dt><strong>attributes</strong> = {}</dl>
+
+<dl><dt><strong>contextPath</strong> = ''</dl>
+
+<dl><dt><strong>contexts</strong> = {}</dl>
+
+<dl><dt><strong>declaredRoles</strong> = set()</dl>
+
+<dl><dt><strong>defaultServletName</strong> = 'default'</dl>
+
+<dl><dt><strong>effectiveMajorVersion</strong> = 3</dl>
+
+<dl><dt><strong>effectiveMinorVersion</strong> = 1</dl>
+
+<dl><dt><strong>initParameters</strong> = {}</dl>
+
+<dl><dt><strong>logger</strong> = &lt;RootLogger root (INFO)&gt;</dl>
+
+<dl><dt><strong>majorVersion</strong> = 3</dl>
+
+<dl><dt><strong>mimeTypes</strong> = {}</dl>
+
+<dl><dt><strong>minorVersion</strong> = 1</dl>
+
+<dl><dt><strong>namedRequestDispatchers</strong> = {}</dl>
+
+<dl><dt><strong>requestCharacterEncoding</strong> = None</dl>
+
+<dl><dt><strong>resourceBasePath</strong> = None</dl>
+
+<dl><dt><strong>resourceLoader</strong> = None</dl>
+
+<dl><dt><strong>responseCharacterEncoding</strong> = None</dl>
+
+<dl><dt><strong>servletContextName</strong> = 'MockServletContext'</dl>
+
+<dl><dt><strong>sessionCookieConfig</strong> = &lt;MagicMock name='SessionCookieConfig()' id='4495301544'&gt;<dd><tt>MagicMock&nbsp;is&nbsp;a&nbsp;subclass&nbsp;of&nbsp;Mock&nbsp;with&nbsp;default&nbsp;implementations<br>
+of&nbsp;most&nbsp;of&nbsp;the&nbsp;magic&nbsp;methods.&nbsp;You&nbsp;can&nbsp;use&nbsp;MagicMock&nbsp;without&nbsp;having&nbsp;to<br>
+configure&nbsp;the&nbsp;magic&nbsp;methods&nbsp;yourself.<br>
+&nbsp;<br>
+If&nbsp;you&nbsp;use&nbsp;the&nbsp;`spec`&nbsp;or&nbsp;`spec_set`&nbsp;arguments&nbsp;then&nbsp;*only*&nbsp;magic<br>
+methods&nbsp;that&nbsp;exist&nbsp;in&nbsp;the&nbsp;spec&nbsp;will&nbsp;be&nbsp;created.<br>
+&nbsp;<br>
+Attributes&nbsp;and&nbsp;the&nbsp;return&nbsp;value&nbsp;of&nbsp;a&nbsp;`MagicMock`&nbsp;will&nbsp;also&nbsp;be&nbsp;`MagicMocks`.</tt></dl>
+
+<dl><dt><strong>sessionTimeout</strong> = None</dl>
+
+<dl><dt><strong>sessionTrackingModes</strong> = None</dl>
+
+</td></tr></table>
+</body></html>

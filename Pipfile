@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+springframework = {path = "./", editable = true}
+
+[dev-packages]
+"testfixtures" = "*"
+"black" = "*"
+"flake8" = "*"
+colorama = "*"
+gunicorn = "*"
+pipdeptree = "*"
+pytest = '*'
+pytest-mock = "*"
+pytest-cov = "*"
+pytest-custom_exit_code = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true

@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: class AbstractUrlBasedView</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><strong>springframework.web.servlet.view.AbstractUrlBasedView</strong> = <a name="springframework.web.servlet.view.AbstractUrlBasedView">class AbstractUrlBasedView</a>(<a href="springframework.web.servlet.view.AbstractView.html#AbstractView">springframework.web.servlet.view.AbstractView.AbstractView</a>, <a href="springframework.beans.factory.InitializingBean.html#InitializingBean">springframework.beans.factory.InitializingBean.InitializingBean</a>, <a href="abc.html#ABC">abc.ABC</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>springframework.web.servlet.view.AbstractUrlBasedView(url:&nbsp;str)<br>
+&nbsp;<br>
+Helper&nbsp;class&nbsp;that&nbsp;provides&nbsp;a&nbsp;standard&nbsp;way&nbsp;to&nbsp;create&nbsp;an&nbsp;ABC&nbsp;using<br>
+inheritance.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.web.servlet.view.AbstractUrlBasedView.html#AbstractUrlBasedView">AbstractUrlBasedView</a></dd>
+<dd><a href="springframework.web.servlet.view.AbstractView.html#AbstractView">springframework.web.servlet.view.AbstractView.AbstractView</a></dd>
+<dd><a href="springframework.web.context.support.WebApplicationObjectSupport.html#WebApplicationObjectSupport">springframework.web.context.support.WebApplicationObjectSupport.WebApplicationObjectSupport</a></dd>
+<dd><a href="springframework.context.support.ApplicationObjectSupport.html#ApplicationObjectSupport">springframework.context.support.ApplicationObjectSupport.ApplicationObjectSupport</a></dd>
+<dd><a href="springframework.context.ApplicationContextAware.html#ApplicationContextAware">springframework.context.ApplicationContextAware.ApplicationContextAware</a></dd>
+<dd><a href="springframework.web.context.ServletContextAware.html#ServletContextAware">springframework.web.context.ServletContextAware.ServletContextAware</a></dd>
+<dd><a href="springframework.beans.factory.Aware.html#Aware">springframework.beans.factory.Aware.Aware</a></dd>
+<dd><a href="springframework.web.servlet.View.html#View">springframework.web.servlet.View.View</a></dd>
+<dd><a href="springframework.beans.factory.BeanNameAware.html#BeanNameAware">springframework.beans.factory.BeanNameAware.BeanNameAware</a></dd>
+<dd><a href="springframework.beans.factory.InitializingBean.html#InitializingBean">springframework.beans.factory.InitializingBean.InitializingBean</a></dd>
+<dd><a href="abc.html#ABC">abc.ABC</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AbstractUrlBasedView-__init__"><strong>__init__</strong></a>(self, url: str)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-__str__"><strong>__str__</strong></a>(self) -&gt; str</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-after_properties_set"><strong>after_properties_set</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-check_resource"><strong>check_resource</strong></a>(self, locale) -&gt; bool</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-get_url"><strong>get_url</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-is_url_required"><strong>is_url_required</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_url"><strong>set_url</strong></a>(self, url: str) -&gt; None</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset({'render_merged_output_model'})</dl>
+
+<dl><dt><strong>__annotations__</strong> = {'url': &lt;class 'str'&gt;}</dl>
+
+<dl><dt><strong>url</strong> = None</dl>
+
+<hr>
+Methods inherited from <a href="springframework.web.servlet.view.AbstractView.html#AbstractView">springframework.web.servlet.view.AbstractView.AbstractView</a>:<br>
+<dl><dt><a name="AbstractUrlBasedView-add_static_attribute"><strong>add_static_attribute</strong></a>(self, name: str, value) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-create_merged_output_model"><strong>create_merged_output_model</strong></a>(self, model: dict, request, response) -&gt; dict</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-create_request_context"><strong>create_request_context</strong></a>(self, request, response, model: dict) -&gt; &lt;MagicMock id='4497152488'&gt;</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-create_temporary_output_stream"><strong>create_temporary_output_stream</strong></a>(self) -&gt; bytearray</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-expose_model_as_request_attributes"><strong>expose_model_as_request_attributes</strong></a>(self, model: dict, request)</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-format_view_name"><strong>format_view_name</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-generates_download_content"><strong>generates_download_content</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-get_attributes_map"><strong>get_attributes_map</strong></a>(self) -&gt; dict</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-get_bean_name"><strong>get_bean_name</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-get_content_type"><strong>get_content_type</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-get_request_context_attribute"><strong>get_request_context_attribute</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-get_request_to_expose"><strong>get_request_to_expose</strong></a>(self, originalRequest)</dt><dd><tt>#&nbsp;return&nbsp;type&nbsp;:&nbsp;HttpServletRequest</tt></dd></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-get_static_attributes"><strong>get_static_attributes</strong></a>(self) -&gt; dict</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-is_expose_path_variables"><strong>is_expose_path_variables</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-prepare_response"><strong>prepare_response</strong></a>(self, request, response) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-render"><strong>render</strong></a>(self, model, request, response) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-render_merged_output_model"><strong>render_merged_output_model</strong></a>(self, model: dict, request, response)</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_attributes"><strong>set_attributes</strong></a>(self, attributes: dict) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_attributes_csv"><strong>set_attributes_csv</strong></a>(self, propString: str = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_attributes_map"><strong>set_attributes_map</strong></a>(self, attributes: dict = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_bean_name"><strong>set_bean_name</strong></a>(self, beanName: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_content_type"><strong>set_content_type</strong></a>(self, contentType: str = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_expose_context_beans_as_attributes"><strong>set_expose_context_beans_as_attributes</strong></a>(self, exposeContextBeansAsAttributes: bool) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_expose_path_variables"><strong>set_expose_path_variables</strong></a>(self, exposePathVariables: bool) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_exposed_context_bean_names"><strong>set_exposed_context_bean_names</strong></a>(self, exposedContextBeanNames: list) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_request_context_attribute"><strong>set_request_context_attribute</strong></a>(self, requestContextAttribute: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_response_content_type"><strong>set_response_content_type</strong></a>(self, request, response) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-write_to_response"><strong>write_to_response</strong></a>(self, response, baos: bytearray)</dt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="springframework.web.servlet.view.AbstractView.html#AbstractView">springframework.web.servlet.view.AbstractView.AbstractView</a>:<br>
+<dl><dt><strong>DEFAULT_CONTENT_TYPE</strong> = 'text/html;charset=ISO-8859-1'</dl>
+
+<dl><dt><strong>OUTPUT_BYTE_ARRAY_INITIAL_SIZE</strong> = 4096</dl>
+
+<dl><dt><strong>contentType</strong> = 'text/html;charset=ISO-8859-1'</dl>
+
+<hr>
+Methods inherited from <a href="springframework.web.context.support.WebApplicationObjectSupport.html#WebApplicationObjectSupport">springframework.web.context.support.WebApplicationObjectSupport.WebApplicationObjectSupport</a>:<br>
+<dl><dt><a name="AbstractUrlBasedView-get_servlet_context"><strong>get_servlet_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-get_temp_dir"><strong>get_temp_dir</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-get_web_application_context"><strong>get_web_application_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-init_application_context"><strong>init_application_context</strong></a>(self, context: springframework.context.ApplicationContext.ApplicationContext = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-init_servlet_context"><strong>init_servlet_context</strong></a>(self, servlet_context: springframework.web.testfixture.servlet.MockServletContext.MockServletContext)</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-is_context_required"><strong>is_context_required</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_servlet_context"><strong>set_servlet_context</strong></a>(self, servlet_context: springframework.web.testfixture.servlet.MockServletContext.MockServletContext) -&gt; None</dt></dl>
+
+<hr>
+Methods inherited from <a href="springframework.context.support.ApplicationObjectSupport.html#ApplicationObjectSupport">springframework.context.support.ApplicationObjectSupport.ApplicationObjectSupport</a>:<br>
+<dl><dt><a name="AbstractUrlBasedView-get_application_context"><strong>get_application_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-get_message_source_accessor"><strong>get_message_source_accessor</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-obtain_application_context"><strong>obtain_application_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-required_context_class"><strong>required_context_class</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="AbstractUrlBasedView-set_application_context"><strong>set_application_context</strong></a>(self, context: springframework.context.ApplicationContext.ApplicationContext = None) -&gt; None</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="springframework.beans.factory.Aware.html#Aware">springframework.beans.factory.Aware.Aware</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="springframework.web.servlet.View.html#View">springframework.web.servlet.View.View</a>:<br>
+<dl><dt><strong>PATH_VARIABLES</strong> = 'UnresolvedView.pathVariables'</dl>
+
+<dl><dt><strong>RESPONSE_STATUS_ATTRIBUTE</strong> = 'UnresolvedView.responseStatus'</dl>
+
+<dl><dt><strong>SELECTED_CONTENT_TYPE</strong> = 'UnresolvedView.selectedContentType'</dl>
+
+</td></tr></table>
+</body></html>

@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: class MockHttpServletRequest</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><strong>springframework.web.testfixture.servlet.MockHttpServletRequest</strong> = <a name="springframework.web.testfixture.servlet.MockHttpServletRequest">class MockHttpServletRequest</a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>springframework.web.testfixture.servlet.MockHttpServletRequest(servletContext=None,&nbsp;method:&nbsp;str&nbsp;=&nbsp;None,&nbsp;requestURI:&nbsp;str&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+#&nbsp;inherit&nbsp;HttpServletRequestInterface<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="MockHttpServletRequest-__init__"><strong>__init__</strong></a>(self, servletContext=None, method: str = None, requestURI: str = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="MockHttpServletRequest-add_header"><strong>add_header</strong></a>(self, name: str, value) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-add_parameter"><strong>add_parameter</strong></a>(self, name, value) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-add_parameters"><strong>add_parameters</strong></a>(self, params: dict) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-add_part"><strong>add_part</strong></a>(self, part) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-add_preferred_locale"><strong>add_preferred_locale</strong></a>(self, locale: &lt;MagicMock name='Locale' id='4496043144'&gt;) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-add_preferred_locales"><strong>add_preferred_locales</strong></a>(self, locales: list) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-add_user_role"><strong>add_user_role</strong></a>(self, role: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-authenticate"><strong>authenticate</strong></a>(self, response) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-change_session_id"><strong>change_session_id</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-check_active"><strong>check_active</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-clear_attributes"><strong>clear_attributes</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-close"><strong>close</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-do_add_header_value"><strong>do_add_header_value</strong></a>(self, name: str, value, replace: bool) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-encode_cookies"><strong>encode_cookies</strong></a>(self, cookies: list) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_async_context"><strong>get_async_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_attribute"><strong>get_attribute</strong></a>(self, name: str)</dt><dd><tt>#&nbsp;ServletRequest&nbsp;interface</tt></dd></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_attribute_names"><strong>get_attribute_names</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_auth_type"><strong>get_auth_type</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_character_encoding"><strong>get_character_encoding</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_content_as_byte_array"><strong>get_content_as_byte_array</strong></a>(self) -&gt; bytes</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_content_as_string"><strong>get_content_as_string</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_content_length"><strong>get_content_length</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_content_length_long"><strong>get_content_length_long</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_content_type"><strong>get_content_type</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_context_path"><strong>get_context_path</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_cookies"><strong>get_cookies</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_date_header"><strong>get_date_header</strong></a>(self, name: str) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_dispatcher_type"><strong>get_dispatcher_type</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_header"><strong>get_header</strong></a>(self, name: str) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_header_names"><strong>get_header_names</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_headers"><strong>get_headers</strong></a>(self, name: str) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_input_stream"><strong>get_input_stream</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_int_header"><strong>get_int_header</strong></a>(self, name: str) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_local_addr"><strong>get_local_addr</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_local_name"><strong>get_local_name</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_local_port"><strong>get_local_port</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_locale"><strong>get_locale</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_locales"><strong>get_locales</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_method"><strong>get_method</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_parameter"><strong>get_parameter</strong></a>(self, name: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_parameter_map"><strong>get_parameter_map</strong></a>(self) -&gt; dict</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_parameter_names"><strong>get_parameter_names</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_parameter_values"><strong>get_parameter_values</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_part"><strong>get_part</strong></a>(self, name: str)</dt><dd><tt>#&nbsp;return&nbsp;type&nbsp;Part</tt></dd></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_parts"><strong>get_parts</strong></a>(self) -&gt; set</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_path_info"><strong>get_path_info</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_path_translated"><strong>get_path_translated</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_protocol"><strong>get_protocol</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_query_string"><strong>get_query_string</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_reader"><strong>get_reader</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_real_path"><strong>get_real_path</strong></a>(self, path: str) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_remote_addr"><strong>get_remote_addr</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_remote_host"><strong>get_remote_host</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_remote_port"><strong>get_remote_port</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_remote_user"><strong>get_remote_user</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_request_dispatcher"><strong>get_request_dispatcher</strong></a>(self, path: str)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_request_uri"><strong>get_request_uri</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_request_url"><strong>get_request_url</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_requested_session_id"><strong>get_requested_session_id</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_scheme"><strong>get_scheme</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_server_name"><strong>get_server_name</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_server_port"><strong>get_server_port</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_servlet_context"><strong>get_servlet_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_servlet_path"><strong>get_servlet_path</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_session"><strong>get_session</strong></a>(self, create: bool = True)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-get_user_principal"><strong>get_user_principal</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-invalidate"><strong>invalidate</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-is_active"><strong>is_active</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-is_async_started"><strong>is_async_started</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-is_async_supported"><strong>is_async_supported</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-is_requested_session_id_from_cookie"><strong>is_requested_session_id_from_cookie</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-is_requested_session_id_from_url"><strong>is_requested_session_id_from_url</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-is_requested_session_id_valid"><strong>is_requested_session_id_valid</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-is_secure"><strong>is_secure</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-is_user_in_role"><strong>is_user_in_role</strong></a>(self, role: str) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-logout"><strong>logout</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-parse_date_header"><strong>parse_date_header</strong></a>(self, name: str, value: str) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-remove_all_parameters"><strong>remove_all_parameters</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-remove_attribute"><strong>remove_attribute</strong></a>(self, name: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-remove_header"><strong>remove_header</strong></a>(self, name: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-remove_parameter"><strong>remove_parameter</strong></a>(self, name: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_async_context"><strong>set_async_context</strong></a>(self, asyncContext: &lt;module 'springframework.web.testfixture.servlet.MockAsyncContext' from '/Users/jason.tsai/Desktop/Web-Framework/spring-webmvc-python/springframework/web/testfixture/servlet/MockAsyncContext.py'&gt;) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_async_started"><strong>set_async_started</strong></a>(self, asyncStarted: bool) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_async_supported"><strong>set_async_supported</strong></a>(self, asyncSupported: bool) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_attribute"><strong>set_attribute</strong></a>(self, name: str, value=None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_auth_type"><strong>set_auth_type</strong></a>(self, authType: str = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_character_encoding"><strong>set_character_encoding</strong></a>(self, characterEncoding: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_content"><strong>set_content</strong></a>(self, context: bytes) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_content_type"><strong>set_content_type</strong></a>(self, contentType: str = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_context_path"><strong>set_context_path</strong></a>(self, contextPath: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_cookies"><strong>set_cookies</strong></a>(self, cookies: list) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_dispatcher_type"><strong>set_dispatcher_type</strong></a>(self, dispatcherType) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_local_addr"><strong>set_local_addr</strong></a>(self, localAddr: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_local_name"><strong>set_local_name</strong></a>(self, localName: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_local_port"><strong>set_local_port</strong></a>(self, localPort: int) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_method"><strong>set_method</strong></a>(self, method: str = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_parameter"><strong>set_parameter</strong></a>(self, name, value) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_parameters"><strong>set_parameters</strong></a>(self, params: dict) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_path_info"><strong>set_path_info</strong></a>(self, pathInfo: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_protocol"><strong>set_protocol</strong></a>(self, protocol: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_query_string"><strong>set_query_string</strong></a>(self, queryString: str = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_remote_addr"><strong>set_remote_addr</strong></a>(self, remoteAddr: str)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_remote_host"><strong>set_remote_host</strong></a>(self, remoteHost: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_remote_port"><strong>set_remote_port</strong></a>(self, remotePort: int) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_remote_user"><strong>set_remote_user</strong></a>(self, remoteUser: str = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_request_uri"><strong>set_request_uri</strong></a>(self, requestURI: str = None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_requested_session_id"><strong>set_requested_session_id</strong></a>(self, requestedSessionId: str = None)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_requested_session_id_from_cookie"><strong>set_requested_session_id_from_cookie</strong></a>(self, requestedSessionIdFromCookie) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_requested_session_id_from_url"><strong>set_requested_session_id_from_url</strong></a>(self, requestedSessionIdFromURL: bool) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_requested_session_id_valid"><strong>set_requested_session_id_valid</strong></a>(self, requestedSessionIdValid: bool) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_scheme"><strong>set_scheme</strong></a>(self, scheme: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_secure"><strong>set_secure</strong></a>(self, secure: bool) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_server_name"><strong>set_server_name</strong></a>(self, serverName: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_server_port"><strong>set_server_port</strong></a>(self, serverPort: int) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_servlet_path"><strong>set_servlet_path</strong></a>(self, servletPath: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_session"><strong>set_session</strong></a>(self, session)</dt><dd><tt>#&nbsp;return&nbsp;type&nbsp;HttpSession</tt></dd></dl>
+
+<dl><dt><a name="MockHttpServletRequest-set_user_principal"><strong>set_user_principal</strong></a>(self, userPrincipal=None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-start_async"><strong>start_async</strong></a>(self, request=None, response=None)</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-update_accept_language_header"><strong>update_accept_language_header</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-update_content_type_header"><strong>update_content_type_header</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpServletRequest-upgrade"><strong>upgrade</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>CHARSET_PREFIX</strong> = 'charset'</dl>
+
+<dl><dt><strong>DATE_FORMATS</strong> = ['%a %b %d %H:%M:%S %Y', '%a, %d-%b-%y %H:%M:%S %Z', '%a, %d %b %Y %H:%M:%S %Z']</dl>
+
+<dl><dt><strong>DEFAULT_PROTOCOL</strong> = 'HTTP/1.1'</dl>
+
+<dl><dt><strong>DEFAULT_REMOTE_ADDR</strong> = '127.0.0.1'</dl>
+
+<dl><dt><strong>DEFAULT_REMOTE_HOST</strong> = 'localhost'</dl>
+
+<dl><dt><strong>DEFAULT_SCHEME</strong> = 'http'</dl>
+
+<dl><dt><strong>DEFAULT_SERVER_ADDR</strong> = '127.0.0.1'</dl>
+
+<dl><dt><strong>DEFAULT_SERVER_NAME</strong> = 'localhost'</dl>
+
+<dl><dt><strong>DEFAULT_SERVER_PORT</strong> = 80</dl>
+
+<dl><dt><strong>EMPTY_BUFFERED_READER</strong> = &lt;MagicMock name='BufferedReader()' id='4499662888'&gt;<dd><tt>MagicMock&nbsp;is&nbsp;a&nbsp;subclass&nbsp;of&nbsp;Mock&nbsp;with&nbsp;default&nbsp;implementations<br>
+of&nbsp;most&nbsp;of&nbsp;the&nbsp;magic&nbsp;methods.&nbsp;You&nbsp;can&nbsp;use&nbsp;MagicMock&nbsp;without&nbsp;having&nbsp;to<br>
+configure&nbsp;the&nbsp;magic&nbsp;methods&nbsp;yourself.<br>
+&nbsp;<br>
+If&nbsp;you&nbsp;use&nbsp;the&nbsp;`spec`&nbsp;or&nbsp;`spec_set`&nbsp;arguments&nbsp;then&nbsp;*only*&nbsp;magic<br>
+methods&nbsp;that&nbsp;exist&nbsp;in&nbsp;the&nbsp;spec&nbsp;will&nbsp;be&nbsp;created.<br>
+&nbsp;<br>
+Attributes&nbsp;and&nbsp;the&nbsp;return&nbsp;value&nbsp;of&nbsp;a&nbsp;`MagicMock`&nbsp;will&nbsp;also&nbsp;be&nbsp;`MagicMocks`.</tt></dl>
+
+<dl><dt><strong>EMPTY_SERVLET_INPUT_STREAM</strong> = &lt;MagicMock name='DelegatingServletInputStream()' id='4490133856'&gt;<dd><tt>MagicMock&nbsp;is&nbsp;a&nbsp;subclass&nbsp;of&nbsp;Mock&nbsp;with&nbsp;default&nbsp;implementations<br>
+of&nbsp;most&nbsp;of&nbsp;the&nbsp;magic&nbsp;methods.&nbsp;You&nbsp;can&nbsp;use&nbsp;MagicMock&nbsp;without&nbsp;having&nbsp;to<br>
+configure&nbsp;the&nbsp;magic&nbsp;methods&nbsp;yourself.<br>
+&nbsp;<br>
+If&nbsp;you&nbsp;use&nbsp;the&nbsp;`spec`&nbsp;or&nbsp;`spec_set`&nbsp;arguments&nbsp;then&nbsp;*only*&nbsp;magic<br>
+methods&nbsp;that&nbsp;exist&nbsp;in&nbsp;the&nbsp;spec&nbsp;will&nbsp;be&nbsp;created.<br>
+&nbsp;<br>
+Attributes&nbsp;and&nbsp;the&nbsp;return&nbsp;value&nbsp;of&nbsp;a&nbsp;`MagicMock`&nbsp;will&nbsp;also&nbsp;be&nbsp;`MagicMocks`.</tt></dl>
+
+<dl><dt><strong>GMT</strong> = &lt;StaticTzInfo 'GMT'&gt;</dl>
+
+<dl><dt><strong>HTTP</strong> = 'http'</dl>
+
+<dl><dt><strong>HTTPS</strong> = 'https'</dl>
+
+<dl><dt><strong>__annotations__</strong> = {'DEFAULT_SCHEME': &lt;class 'str'&gt;, 'authType': &lt;class 'str'&gt;, 'characterEncoding': &lt;class 'str'&gt;, 'content': &lt;class 'bytes'&gt;, 'contentType': &lt;class 'str'&gt;, 'contextPath': &lt;class 'str'&gt;, 'cookies': &lt;class 'list'&gt;, 'localAddr': &lt;class 'str'&gt;, 'localName': &lt;class 'str'&gt;, 'localPort': &lt;class 'int'&gt;, ...}</dl>
+
+<dl><dt><strong>active</strong> = True</dl>
+
+<dl><dt><strong>asyncContext</strong> = None</dl>
+
+<dl><dt><strong>asyncStarted</strong> = False</dl>
+
+<dl><dt><strong>asyncSupported</strong> = False</dl>
+
+<dl><dt><strong>attributes</strong> = {}</dl>
+
+<dl><dt><strong>authType</strong> = None</dl>
+
+<dl><dt><strong>characterEncoding</strong> = None</dl>
+
+<dl><dt><strong>content</strong> = None</dl>
+
+<dl><dt><strong>contentType</strong> = None</dl>
+
+<dl><dt><strong>contextPath</strong> = ''</dl>
+
+<dl><dt><strong>cookies</strong> = None</dl>
+
+<dl><dt><strong>dispatcherType</strong> = &lt;MagicMock name='DispatcherType.REQUEST' id='4499675400'&gt;<dd><tt>MagicMock&nbsp;is&nbsp;a&nbsp;subclass&nbsp;of&nbsp;Mock&nbsp;with&nbsp;default&nbsp;implementations<br>
+of&nbsp;most&nbsp;of&nbsp;the&nbsp;magic&nbsp;methods.&nbsp;You&nbsp;can&nbsp;use&nbsp;MagicMock&nbsp;without&nbsp;having&nbsp;to<br>
+configure&nbsp;the&nbsp;magic&nbsp;methods&nbsp;yourself.<br>
+&nbsp;<br>
+If&nbsp;you&nbsp;use&nbsp;the&nbsp;`spec`&nbsp;or&nbsp;`spec_set`&nbsp;arguments&nbsp;then&nbsp;*only*&nbsp;magic<br>
+methods&nbsp;that&nbsp;exist&nbsp;in&nbsp;the&nbsp;spec&nbsp;will&nbsp;be&nbsp;created.<br>
+&nbsp;<br>
+Attributes&nbsp;and&nbsp;the&nbsp;return&nbsp;value&nbsp;of&nbsp;a&nbsp;`MagicMock`&nbsp;will&nbsp;also&nbsp;be&nbsp;`MagicMocks`.</tt></dl>
+
+<dl><dt><strong>headers</strong> = defaultdict(&lt;class 'set'&gt;, {})</dl>
+
+<dl><dt><strong>inputStream</strong> = None</dl>
+
+<dl><dt><strong>localAddr</strong> = '127.0.0.1'</dl>
+
+<dl><dt><strong>localName</strong> = 'localhost'</dl>
+
+<dl><dt><strong>localPort</strong> = 80</dl>
+
+<dl><dt><strong>locales</strong> = []</dl>
+
+<dl><dt><strong>method</strong> = None</dl>
+
+<dl><dt><strong>parameters</strong> = {}</dl>
+
+<dl><dt><strong>parts</strong> = {}</dl>
+
+<dl><dt><strong>pathInfo</strong> = None</dl>
+
+<dl><dt><strong>protocol</strong> = 'HTTP/1.1'</dl>
+
+<dl><dt><strong>queryString</strong> = None</dl>
+
+<dl><dt><strong>reader</strong> = None</dl>
+
+<dl><dt><strong>remoteAddr</strong> = '127.0.0.1'</dl>
+
+<dl><dt><strong>remoteHost</strong> = 'localhost'</dl>
+
+<dl><dt><strong>remotePort</strong> = 80</dl>
+
+<dl><dt><strong>remoteUser</strong> = None</dl>
+
+<dl><dt><strong>requestURI</strong> = None</dl>
+
+<dl><dt><strong>requestedSessionId</strong> = None</dl>
+
+<dl><dt><strong>requestedSessionIdFromCookie</strong> = True</dl>
+
+<dl><dt><strong>requestedSessionIdFromURL</strong> = True</dl>
+
+<dl><dt><strong>requestedSessionIdValid</strong> = True</dl>
+
+<dl><dt><strong>scheme</strong> = 'http'</dl>
+
+<dl><dt><strong>secure</strong> = False</dl>
+
+<dl><dt><strong>serverName</strong> = 'localhost'</dl>
+
+<dl><dt><strong>serverPort</strong> = 80</dl>
+
+<dl><dt><strong>servletContext</strong> = None</dl>
+
+<dl><dt><strong>servletPath</strong> = ''</dl>
+
+<dl><dt><strong>session</strong> = None</dl>
+
+<dl><dt><strong>userPrincipal</strong> = None</dl>
+
+<dl><dt><strong>userRoles</strong> = set()</dl>
+
+</td></tr></table>
+</body></html>

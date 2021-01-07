@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: class MockHttpSession</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><strong>springframework.web.testfixture.servlet.MockHttpSession</strong> = <a name="springframework.web.testfixture.servlet.MockHttpSession">class MockHttpSession</a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>springframework.web.testfixture.servlet.MockHttpSession(servletContext=None,&nbsp;id:&nbsp;str&nbsp;=&nbsp;None)&nbsp;-&amp;gt;&nbsp;None<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="MockHttpSession-__init__"><strong>__init__</strong></a>(self, servletContext=None, id: str = None) -&gt; None</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="MockHttpSession-access"><strong>access</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpSession-assert_is_valid"><strong>assert_is_valid</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpSession-change_session_id"><strong>change_session_id</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpSession-clear_attributes"><strong>clear_attributes</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpSession-deserialize_state"><strong>deserialize_state</strong></a>(self, state: springframework.utils.mock.type.Serializable) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpSession-getValue"><strong>getValue</strong></a>(self, name: str)</dt></dl>
+
+<dl><dt><a name="MockHttpSession-get_attribute"><strong>get_attribute</strong></a>(self, name: str)</dt></dl>
+
+<dl><dt><a name="MockHttpSession-get_attribute_names"><strong>get_attribute_names</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockHttpSession-get_creation_time"><strong>get_creation_time</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockHttpSession-get_id"><strong>get_id</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockHttpSession-get_last_accessed_time"><strong>get_last_accessed_time</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockHttpSession-get_max_inactive_Interval"><strong>get_max_inactive_Interval</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockHttpSession-get_servlet_context"><strong>get_servlet_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockHttpSession-get_session_context"><strong>get_session_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockHttpSession-get_value_names"><strong>get_value_names</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockHttpSession-invalidate"><strong>invalidate</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpSession-is_invalid"><strong>is_invalid</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockHttpSession-is_new"><strong>is_new</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockHttpSession-put_value"><strong>put_value</strong></a>(self, name: str, value) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpSession-remove_attribute"><strong>remove_attribute</strong></a>(self, name: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpSession-remove_value"><strong>remove_value</strong></a>(self, name: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpSession-serialize_state"><strong>serialize_state</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockHttpSession-set_attribute"><strong>set_attribute</strong></a>(self, name: str, value=None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpSession-set_max_inactive_Interval"><strong>set_max_inactive_Interval</strong></a>(self, interval: int) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockHttpSession-set_new"><strong>set_new</strong></a>(self, value: bool) -&gt; None</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>SESSION_COOKIE_NAME</strong> = 'JSESSION'</dl>
+
+<dl><dt><strong>__annotations__</strong> = {'SESSION_COOKIE_NAME': &lt;class 'str'&gt;, 'attributes': &lt;class 'dict'&gt;, 'creationTime': &lt;class 'int'&gt;, 'id': &lt;class 'str'&gt;, 'invalid': &lt;class 'bool'&gt;, 'isNew': &lt;class 'bool'&gt;, 'lastAccessedTime': &lt;class 'int'&gt;, 'maxInactiveInterval': &lt;class 'int'&gt;, 'nextId': &lt;class 'int'&gt;}</dl>
+
+<dl><dt><strong>attributes</strong> = {}</dl>
+
+<dl><dt><strong>creationTime</strong> = 1610013082</dl>
+
+<dl><dt><strong>id</strong> = None</dl>
+
+<dl><dt><strong>invalid</strong> = False</dl>
+
+<dl><dt><strong>isNew</strong> = True</dl>
+
+<dl><dt><strong>lastAccessedTime</strong> = 1610013082</dl>
+
+<dl><dt><strong>maxInactiveInterval</strong> = None</dl>
+
+<dl><dt><strong>nextId</strong> = 1</dl>
+
+<dl><dt><strong>servletContext</strong> = None</dl>
+
+</td></tr></table>
+</body></html>

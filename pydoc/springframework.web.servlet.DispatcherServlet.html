@@ -1,0 +1,487 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module springframework.web.servlet.DispatcherServlet</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="springframework.html"><font color="#ffffff">springframework</font></a>.<a href="springframework.web.html"><font color="#ffffff">web</font></a>.<a href="springframework.web.servlet.html"><font color="#ffffff">servlet</font></a>.DispatcherServlet</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/jason.tsai/Desktop/Web-Framework/spring-webmvc-python/springframework/web/servlet/DispatcherServlet.py">/Users/jason.tsai/Desktop/Web-Framework/spring-webmvc-python/springframework/web/servlet/DispatcherServlet.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="springframework.web.servlet.DispatcherServlet.html#DispatcherServlet">DispatcherServlet</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="builtins.html#type">builtins.type</a>(<a href="builtins.html#object">builtins.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="springframework.web.servlet.DispatcherServlet.html#DispatcherServletMeta">DispatcherServletMeta</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="springframework.web.servlet.handler.SimpleUrlHandlerMapping.html#SimpleUrlHandlerMapping">springframework.web.servlet.handler.SimpleUrlHandlerMapping.SimpleUrlHandlerMapping</a>(<a href="springframework.web.servlet.handler.AbstractUrlHandlerMapping.html#AbstractUrlHandlerMapping">springframework.web.servlet.handler.AbstractUrlHandlerMapping.AbstractUrlHandlerMapping</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="springframework.web.servlet.DispatcherServlet.html#MockSimpleUrlHandlerMapping">MockSimpleUrlHandlerMapping</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="springframework.web.servlet.mvc.Controller.html#Controller">springframework.web.servlet.mvc.Controller.Controller</a>(<a href="abc.html#ABC">abc.ABC</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="springframework.web.servlet.DispatcherServlet.html#MockController">MockController</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="DispatcherServlet">class <strong>DispatcherServlet</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#DispatcherServlet">DispatcherServlet</a>(xml_path)<br>
+&nbsp;<br>
+docstring&nbsp;for&nbsp;<a href="#DispatcherServlet">DispatcherServlet</a><br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="DispatcherServlet-__init__"><strong>__init__</strong></a>(self, xml_path)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(<a href="builtins.html#type">type</a>(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServlet-do_dispatch"><strong>do_dispatch</strong></a>(self, request, response)</dt></dl>
+
+<dl><dt><a name="DispatcherServlet-do_service"><strong>do_service</strong></a>(self, request, response)</dt></dl>
+
+<dl><dt><a name="DispatcherServlet-get_handler"><strong>get_handler</strong></a>(self, request)</dt></dl>
+
+<dl><dt><a name="DispatcherServlet-get_handler_adapter"><strong>get_handler_adapter</strong></a>(self, handler)</dt></dl>
+
+<dl><dt><a name="DispatcherServlet-init"><strong>init</strong></a>(self, config)</dt></dl>
+
+<dl><dt><a name="DispatcherServlet-init_servlet_bean"><strong>init_servlet_bean</strong></a>(self)</dt><dd><tt>getServletContext().log("Initializing&nbsp;Spring&nbsp;"&nbsp;+&nbsp;getClass().getSimpleName()&nbsp;+&nbsp;"&nbsp;'"&nbsp;+&nbsp;getServletName()&nbsp;+&nbsp;"'");<br>
+if&nbsp;(logger.isInfoEnabled())&nbsp;{<br>
+logger.info("Initializing&nbsp;Servlet&nbsp;'"&nbsp;+&nbsp;getServletName()&nbsp;+&nbsp;"'");<br>
+}<br>
+long<br>
+startTime&nbsp;=&nbsp;System.currentTimeMillis();</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServlet-init_strategies"><strong>init_strategies</strong></a>(self, context)</dt></dl>
+
+<dl><dt><a name="DispatcherServlet-init_web_application_context"><strong>init_web_application_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="DispatcherServlet-on_refresh"><strong>on_refresh</strong></a>(self, context)</dt></dl>
+
+<dl><dt><a name="DispatcherServlet-resolve_view_name"><strong>resolve_view_name</strong></a>(self, viewName, locale)</dt></dl>
+
+<dl><dt><a name="DispatcherServlet-set_context_class"><strong>set_context_class</strong></a>(self, contextClass)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>FLASH_MAP_MANAGER_ATTRIBUTE</strong> = 'DispatcherServletMeta.FLASH_MAP_MANAGER'</dl>
+
+<dl><dt><strong>OUTPUT_FLASH_MAP_ATTRIBUTE</strong> = 'DispatcherServletMeta.OUTPUT_FLASH_MAP'</dl>
+
+<dl><dt><strong>config</strong> = None</dl>
+
+<dl><dt><strong>contextClass</strong> = None</dl>
+
+<dl><dt><strong>handlerAdapters</strong> = []</dl>
+
+<dl><dt><strong>handlerMappings</strong> = []</dl>
+
+<dl><dt><strong>viewResolvers</strong> = []</dl>
+
+<dl><dt><strong>webApplicationContext</strong> = None</dl>
+
+<dl><dt><strong>xml_path</strong> = ''</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="DispatcherServletMeta">class <strong>DispatcherServletMeta</strong></a>(<a href="builtins.html#type">builtins.type</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#DispatcherServletMeta">DispatcherServletMeta</a>(*args,&nbsp;**kwargs)<br>
+&nbsp;<br>
+<a href="builtins.html#type">type</a>(object_or_name,&nbsp;bases,&nbsp;dict)<br>
+<a href="builtins.html#type">type</a>(<a href="builtins.html#object">object</a>)&nbsp;-&gt;&nbsp;the&nbsp;<a href="builtins.html#object">object</a>'s&nbsp;<a href="builtins.html#type">type</a><br>
+<a href="builtins.html#type">type</a>(name,&nbsp;bases,&nbsp;dict)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#type">type</a><br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.web.servlet.DispatcherServlet.html#DispatcherServletMeta">DispatcherServletMeta</a></dd>
+<dd><a href="builtins.html#type">builtins.type</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="DispatcherServletMeta-__init__"><strong>__init__</strong></a>(cls, *args, **kwargs)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(<a href="builtins.html#type">type</a>(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#type">builtins.type</a>:<br>
+<dl><dt><a name="DispatcherServletMeta-__call__"><strong>__call__</strong></a>(self, /, *args, **kwargs)</dt><dd><tt>Call&nbsp;self&nbsp;as&nbsp;a&nbsp;function.</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServletMeta-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServletMeta-__dir__"><strong>__dir__</strong></a>(self, /)</dt><dd><tt>Specialized&nbsp;__dir__&nbsp;implementation&nbsp;for&nbsp;types.</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServletMeta-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServletMeta-__instancecheck__"><strong>__instancecheck__</strong></a>(self, instance, /)</dt><dd><tt>Check&nbsp;if&nbsp;an&nbsp;<a href="builtins.html#object">object</a>&nbsp;is&nbsp;an&nbsp;instance.</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServletMeta-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServletMeta-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServletMeta-__sizeof__"><strong>__sizeof__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;memory&nbsp;consumption&nbsp;of&nbsp;the&nbsp;<a href="builtins.html#type">type</a>&nbsp;<a href="builtins.html#object">object</a>.</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServletMeta-__subclasscheck__"><strong>__subclasscheck__</strong></a>(self, subclass, /)</dt><dd><tt>Check&nbsp;if&nbsp;a&nbsp;class&nbsp;is&nbsp;a&nbsp;subclass.</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServletMeta-__subclasses__"><strong>__subclasses__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;a&nbsp;list&nbsp;of&nbsp;immediate&nbsp;subclasses.</tt></dd></dl>
+
+<dl><dt><a name="DispatcherServletMeta-mro"><strong>mro</strong></a>(self, /)</dt><dd><tt>Return&nbsp;a&nbsp;<a href="builtins.html#type">type</a>'s&nbsp;method&nbsp;resolution&nbsp;order.</tt></dd></dl>
+
+<hr>
+Class methods inherited from <a href="builtins.html#type">builtins.type</a>:<br>
+<dl><dt><a name="DispatcherServletMeta-__prepare__"><strong>__prepare__</strong></a>(...)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt><a href="#DispatcherServletMeta-__prepare__">__prepare__</a>()&nbsp;-&gt;&nbsp;dict<br>
+used&nbsp;to&nbsp;create&nbsp;the&nbsp;namespace&nbsp;for&nbsp;the&nbsp;class&nbsp;statement</tt></dd></dl>
+
+<hr>
+Static methods inherited from <a href="builtins.html#type">builtins.type</a>:<br>
+<dl><dt><a name="DispatcherServletMeta-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#object">object</a>.&nbsp;&nbsp;See&nbsp;help(<a href="builtins.html#type">type</a>)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#type">builtins.type</a>:<br>
+<dl><dt><strong>__abstractmethods__</strong></dt>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__text_signature__</strong></dt>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="builtins.html#type">builtins.type</a>:<br>
+<dl><dt><strong>__base__</strong> = &lt;class 'type'&gt;<dd><tt><a href="builtins.html#type">type</a>(object_or_name,&nbsp;bases,&nbsp;dict)<br>
+<a href="builtins.html#type">type</a>(<a href="builtins.html#object">object</a>)&nbsp;-&gt;&nbsp;the&nbsp;<a href="builtins.html#object">object</a>'s&nbsp;<a href="builtins.html#type">type</a><br>
+<a href="builtins.html#type">type</a>(name,&nbsp;bases,&nbsp;dict)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#type">type</a></tt></dl>
+
+<dl><dt><strong>__bases__</strong> = (&lt;class 'type'&gt;,)</dl>
+
+<dl><dt><strong>__basicsize__</strong> = 864</dl>
+
+<dl><dt><strong>__dictoffset__</strong> = 264</dl>
+
+<dl><dt><strong>__flags__</strong> = 2148292097</dl>
+
+<dl><dt><strong>__itemsize__</strong> = 40</dl>
+
+<dl><dt><strong>__mro__</strong> = (&lt;class 'springframework.web.servlet.DispatcherServlet.DispatcherServletMeta'&gt;, &lt;class 'type'&gt;, &lt;class 'object'&gt;)</dl>
+
+<dl><dt><strong>__weakrefoffset__</strong> = 368</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="MockController">class <strong>MockController</strong></a>(<a href="springframework.web.servlet.mvc.Controller.html#Controller">springframework.web.servlet.mvc.Controller.Controller</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#MockController">MockController</a>(name:&nbsp;str)<br>
+&nbsp;<br>
+Helper&nbsp;class&nbsp;that&nbsp;provides&nbsp;a&nbsp;standard&nbsp;way&nbsp;to&nbsp;create&nbsp;an&nbsp;ABC&nbsp;using<br>
+inheritance.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.web.servlet.DispatcherServlet.html#MockController">MockController</a></dd>
+<dd><a href="springframework.web.servlet.mvc.Controller.html#Controller">springframework.web.servlet.mvc.Controller.Controller</a></dd>
+<dd><a href="abc.html#ABC">abc.ABC</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="MockController-__init__"><strong>__init__</strong></a>(self, name: str)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(<a href="builtins.html#type">type</a>(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="MockController-get_name"><strong>get_name</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockController-handle_request"><strong>handle_request</strong></a>(self, request, response) -&gt; springframework.web.servlet.ModelAndView.ModelAndView</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset()</dl>
+
+<hr>
+Data descriptors inherited from <a href="springframework.web.servlet.mvc.Controller.html#Controller">springframework.web.servlet.mvc.Controller.Controller</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="MockSimpleUrlHandlerMapping">class <strong>MockSimpleUrlHandlerMapping</strong></a>(<a href="springframework.web.servlet.handler.SimpleUrlHandlerMapping.html#SimpleUrlHandlerMapping">springframework.web.servlet.handler.SimpleUrlHandlerMapping.SimpleUrlHandlerMapping</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#MockSimpleUrlHandlerMapping">MockSimpleUrlHandlerMapping</a>(urlMap:&nbsp;{},&nbsp;mockLookupPath:&nbsp;str)<br>
+&nbsp;<br>
+Helper&nbsp;class&nbsp;that&nbsp;provides&nbsp;a&nbsp;standard&nbsp;way&nbsp;to&nbsp;create&nbsp;an&nbsp;ABC&nbsp;using<br>
+inheritance.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="springframework.web.servlet.DispatcherServlet.html#MockSimpleUrlHandlerMapping">MockSimpleUrlHandlerMapping</a></dd>
+<dd><a href="springframework.web.servlet.handler.SimpleUrlHandlerMapping.html#SimpleUrlHandlerMapping">springframework.web.servlet.handler.SimpleUrlHandlerMapping.SimpleUrlHandlerMapping</a></dd>
+<dd><a href="springframework.web.servlet.handler.AbstractUrlHandlerMapping.html#AbstractUrlHandlerMapping">springframework.web.servlet.handler.AbstractUrlHandlerMapping.AbstractUrlHandlerMapping</a></dd>
+<dd><a href="springframework.web.servlet.handler.AbstractHandlerMapping.html#AbstractHandlerMapping">springframework.web.servlet.handler.AbstractHandlerMapping.AbstractHandlerMapping</a></dd>
+<dd><a href="springframework.web.context.support.WebApplicationObjectSupport.html#WebApplicationObjectSupport">springframework.web.context.support.WebApplicationObjectSupport.WebApplicationObjectSupport</a></dd>
+<dd><a href="springframework.context.support.ApplicationObjectSupport.html#ApplicationObjectSupport">springframework.context.support.ApplicationObjectSupport.ApplicationObjectSupport</a></dd>
+<dd><a href="springframework.context.ApplicationContextAware.html#ApplicationContextAware">springframework.context.ApplicationContextAware.ApplicationContextAware</a></dd>
+<dd><a href="springframework.web.context.ServletContextAware.html#ServletContextAware">springframework.web.context.ServletContextAware.ServletContextAware</a></dd>
+<dd><a href="springframework.beans.factory.Aware.html#Aware">springframework.beans.factory.Aware.Aware</a></dd>
+<dd><a href="springframework.web.servlet.handler.MatchableHandlerMapping.html#MatchableHandlerMapping">springframework.web.servlet.handler.MatchableHandlerMapping.MatchableHandlerMapping</a></dd>
+<dd><a href="springframework.web.servlet.HandlerMapping.html#HandlerMappingInterface">springframework.web.servlet.HandlerMapping.HandlerMappingInterface</a></dd>
+<dd><a href="springframework.core.Ordered.html#Ordered">springframework.core.Ordered.Ordered</a></dd>
+<dd><a href="springframework.beans.factory.BeanNameAware.html#BeanNameAware">springframework.beans.factory.BeanNameAware.BeanNameAware</a></dd>
+<dd><a href="abc.html#ABC">abc.ABC</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="MockSimpleUrlHandlerMapping-__init__"><strong>__init__</strong></a>(self, urlMap: {}, mockLookupPath: str)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(<a href="builtins.html#type">type</a>(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-init_lookup_path"><strong>init_lookup_path</strong></a>(self, request)</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>BEST_MATCHING_HANDLER_ATTRIBUTE</strong> = 'MockSimpleUrlHandlerMapping.bestMatchingHandler'</dl>
+
+<dl><dt><strong>BEST_MATCHING_PATTERN_ATTRIBUTE</strong> = 'MockSimpleUrlHandlerMapping.pathWithinHandlerMapping'</dl>
+
+<dl><dt><strong>INTROSPECT_TYPE_LEVEL_MAPPING</strong> = 'MockSimpleUrlHandlerMapping.bestMatchingPattern'</dl>
+
+<dl><dt><strong>LOOKUP_PATH</strong> = 'MockSimpleUrlHandlerMapping.lookupPath'</dl>
+
+<dl><dt><strong>MATRIX_VARIABLES_ATTRIBUTE</strong> = 'MockSimpleUrlHandlerMapping.uriTemplateVariables'</dl>
+
+<dl><dt><strong>PATH_WITHIN_HANDLER_MAPPING_ATTRIBUTE</strong> = 'MockSimpleUrlHandlerMapping.pathWithinHandlerMapping'</dl>
+
+<dl><dt><strong>PRODUCIBLE_MEDIA_TYPES_ATTRIBUTE</strong> = 'MockSimpleUrlHandlerMapping.matrixVariables'</dl>
+
+<dl><dt><strong>URI_TEMPLATE_VARIABLES_ATTRIBUTE</strong> = 'MockSimpleUrlHandlerMapping.introspectTypeLevelMapping'</dl>
+
+<dl><dt><strong>__abstractmethods__</strong> = frozenset()</dl>
+
+<hr>
+Methods inherited from <a href="springframework.web.servlet.handler.SimpleUrlHandlerMapping.html#SimpleUrlHandlerMapping">springframework.web.servlet.handler.SimpleUrlHandlerMapping.SimpleUrlHandlerMapping</a>:<br>
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_url_map"><strong>get_url_map</strong></a>(self) -&gt; dict</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-init_application_context"><strong>init_application_context</strong></a>(self, context=None) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-register_handlers"><strong>register_handlers</strong></a>(self, urlMap: dict) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_mappings"><strong>set_mappings</strong></a>(self, mappings: dict) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_url_map"><strong>set_url_map</strong></a>(self, urlMap: dict) -&gt; None</dt></dl>
+
+<hr>
+Methods inherited from <a href="springframework.web.servlet.handler.AbstractUrlHandlerMapping.html#AbstractUrlHandlerMapping">springframework.web.servlet.handler.AbstractUrlHandlerMapping.AbstractUrlHandlerMapping</a>:<br>
+<dl><dt><a name="MockSimpleUrlHandlerMapping-build_path_exposing_handler"><strong>build_path_exposing_handler</strong></a>(self, rawHandler: object, bestMatchingPattern: str, pathWithinMapping: str, uriTemplateVariables: dict) -&gt; object</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-expose_path_within_mapping"><strong>expose_path_within_mapping</strong></a>(self, bestMatchingPattern: str, pathWithinMapping: str, request) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-expose_uri_template_variables"><strong>expose_uri_template_variables</strong></a>(self, uriTemplateVariables: dict, request) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_direct_match"><strong>get_direct_match</strong></a>(self, urlPath: str, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;) -&gt; object</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_handler_description"><strong>get_handler_description</strong></a>(self, handler: object) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_handler_internal"><strong>get_handler_internal</strong></a>(self, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;) -&gt; object</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_handler_map"><strong>get_handler_map</strong></a>(self) -&gt; dict</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_path_pattern_handler_map"><strong>get_path_pattern_handler_map</strong></a>(self) -&gt; dict</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_root_handler"><strong>get_root_handler</strong></a>(self) -&gt; object</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-lookup_handler"><strong>lookup_handler</strong></a>(self, arg1, arg2, arg3=None) -&gt; object</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-match"><strong>match</strong></a>(self, request, pattern: str)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-register_handler"><strong>register_handler</strong></a>(self, urlPaths: list, beanName: str)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_lazy_init_handlers"><strong>set_lazy_init_handlers</strong></a>(self, lazyInitHandlers: bool)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_root_handler"><strong>set_root_handler</strong></a>(self, rootHandler: object) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_use_trailing_slash_match"><strong>set_use_trailing_slash_match</strong></a>(self, useTrailingSlashMatch: bool)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-supports_type_level_mappings"><strong>supports_type_level_mappings</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-use_trailing_slash_match"><strong>use_trailing_slash_match</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-validate_handler"><strong>validate_handler</strong></a>(self, handler: object, request) -&gt; None</dt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="springframework.web.servlet.handler.AbstractUrlHandlerMapping.html#AbstractUrlHandlerMapping">springframework.web.servlet.handler.AbstractUrlHandlerMapping.AbstractUrlHandlerMapping</a>:<br>
+<dl><dt><strong>__annotations__</strong> = {'rootHandler': &lt;class 'object'&gt;}</dl>
+
+<dl><dt><strong>rootHandler</strong> = None</dl>
+
+<hr>
+Methods inherited from <a href="springframework.web.servlet.handler.AbstractHandlerMapping.html#AbstractHandlerMapping">springframework.web.servlet.handler.AbstractHandlerMapping.AbstractHandlerMapping</a>:<br>
+<dl><dt><a name="MockSimpleUrlHandlerMapping-adapted_interceptor"><strong>adapted_interceptor</strong></a>(self, interceptor: object) -&gt; springframework.web.servlet.HandlerInterceptor.HandlerInterceptorInterface</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-detected_mapped_interceptors"><strong>detected_mapped_interceptors</strong></a>(self, mappedInterceptors: list) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-extend_interceptors"><strong>extend_interceptors</strong></a>(self, interceptors: list) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-format_mapping_name"><strong>format_mapping_name</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_adapted_interceptors"><strong>get_adapted_interceptors</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_cors_configuration"><strong>get_cors_configuration</strong></a>(self, handler: object, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;) -&gt; springframework.web.cors.CorsConfiguration.CorsConfiguration</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_cors_handler_execution_chain"><strong>get_cors_handler_execution_chain</strong></a>(self, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;, chain: springframework.web.servlet.HandlerExecutionChain.HandlerExecutionChain, config: springframework.web.cors.CorsConfiguration.CorsConfiguration)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_cors_processor"><strong>get_cors_processor</strong></a>(self) -&gt; springframework.web.cors.CorsProcessor.CorsProcessor</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_default_handler"><strong>get_default_handler</strong></a>(self) -&gt; object</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_handler"><strong>get_handler</strong></a>(self, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;) -&gt; springframework.web.servlet.HandlerExecutionChain.HandlerExecutionChain</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_handler_execution_chain"><strong>get_handler_execution_chain</strong></a>(self, handler: object, request: &lt;MagicMock name='HttpServletRequest' id='4497432472'&gt;) -&gt; springframework.web.servlet.HandlerExecutionChain.HandlerExecutionChain</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_mapped_interceptors"><strong>get_mapped_interceptors</strong></a>(self) -&gt; list</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_order"><strong>get_order</strong></a>(self) -&gt; int</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_path_matcher"><strong>get_path_matcher</strong></a>(self) -&gt; springframework.util.PathMatcher.PathMatcher</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_pattern_parser"><strong>get_pattern_parser</strong></a>(self) -&gt; &lt;module 'springframework.web.util.pattern.PathPatternParser' from '/Users/jason.tsai/Desktop/Web-Framework/spring-webmvc-python/springframework/web/util/pattern/PathPatternParser.py'&gt;</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_url_path_helper"><strong>get_url_path_helper</strong></a>(self) -&gt; springframework.web.util.UrlPathHelper.UrlPathHelper</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-has_cors_configuration_source"><strong>has_cors_configuration_source</strong></a>(self, handler: object) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-init_interceptors"><strong>init_interceptors</strong></a>(self) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_always_use_full_path"><strong>set_always_use_full_path</strong></a>(self, alwasyUseFullPath: bool) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_bean_name"><strong>set_bean_name</strong></a>(self, name: str) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_cors_configuration_source"><strong>set_cors_configuration_source</strong></a>(self, source: springframework.web.cors.CorsConfigurationSource.CorsConfigurationSource) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_cors_configurations"><strong>set_cors_configurations</strong></a>(self, corsConfigurations: dict) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_cors_processor"><strong>set_cors_processor</strong></a>(self, corsProcessor: springframework.web.cors.CorsProcessor.CorsProcessor) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_default_handler"><strong>set_default_handler</strong></a>(self, defaultHandler: object) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_interceptors"><strong>set_interceptors</strong></a>(self, *interceptors) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_order"><strong>set_order</strong></a>(self, order: int) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_path_matcher"><strong>set_path_matcher</strong></a>(self, pathMatcher: springframework.util.PathMatcher.PathMatcher) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_pattern_parser"><strong>set_pattern_parser</strong></a>(self, patternParser: &lt;module 'springframework.web.util.pattern.PathPatternParser' from '/Users/jason.tsai/Desktop/Web-Framework/spring-webmvc-python/springframework/web/util/pattern/PathPatternParser.py'&gt;) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_remove_semicolon_content"><strong>set_remove_semicolon_content</strong></a>(self, removeSemicolonContent: bool) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_url_decode"><strong>set_url_decode</strong></a>(self, urlDecode: bool) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_url_path_helper"><strong>set_url_path_helper</strong></a>(self, urlPathHelper: springframework.web.util.UrlPathHelper.UrlPathHelper) -&gt; None</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-uses_path_patterns"><strong>uses_path_patterns</strong></a>(self) -&gt; bool</dt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="springframework.web.servlet.handler.AbstractHandlerMapping.html#AbstractHandlerMapping">springframework.web.servlet.handler.AbstractHandlerMapping.AbstractHandlerMapping</a>:<br>
+<dl><dt><strong>CorsInterceptor</strong> = &lt;class 'springframework.web.servlet.handler.Abst...rMapping.AbstractHandlerMapping.CorsInterceptor'&gt;</dl>
+
+<dl><dt><strong>PreFlightHandler</strong> = &lt;class 'springframework.web.servlet.handler.Abst...Mapping.AbstractHandlerMapping.PreFlightHandler'&gt;</dl>
+
+<dl><dt><strong>adaptedInterceptors</strong> = []</dl>
+
+<dl><dt><strong>beanName</strong> = None</dl>
+
+<dl><dt><strong>corsConfigurationSource</strong> = None</dl>
+
+<dl><dt><strong>corsProcessor</strong> = &lt;springframework.web.cors.DefaultCorsProcessor.DefaultCorsProcessor object&gt;</dl>
+
+<dl><dt><strong>defaultHandler</strong> = None</dl>
+
+<dl><dt><strong>interceptors</strong> = []</dl>
+
+<dl><dt><strong>order</strong> = 9223372036854775807</dl>
+
+<dl><dt><strong>pathMatcher</strong> = &lt;springframework.util.PathMatcher.PathMatcher object&gt;</dl>
+
+<dl><dt><strong>patternParser</strong> = None</dl>
+
+<dl><dt><strong>urlPathHelper</strong> = &lt;springframework.web.util.UrlPathHelper.UrlPathHelper object&gt;</dl>
+
+<hr>
+Methods inherited from <a href="springframework.web.context.support.WebApplicationObjectSupport.html#WebApplicationObjectSupport">springframework.web.context.support.WebApplicationObjectSupport.WebApplicationObjectSupport</a>:<br>
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_servlet_context"><strong>get_servlet_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_temp_dir"><strong>get_temp_dir</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_web_application_context"><strong>get_web_application_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-init_servlet_context"><strong>init_servlet_context</strong></a>(self, servlet_context: springframework.web.testfixture.servlet.MockServletContext.MockServletContext)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-is_context_required"><strong>is_context_required</strong></a>(self) -&gt; bool</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_servlet_context"><strong>set_servlet_context</strong></a>(self, servlet_context: springframework.web.testfixture.servlet.MockServletContext.MockServletContext) -&gt; None</dt></dl>
+
+<hr>
+Methods inherited from <a href="springframework.context.support.ApplicationObjectSupport.html#ApplicationObjectSupport">springframework.context.support.ApplicationObjectSupport.ApplicationObjectSupport</a>:<br>
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_application_context"><strong>get_application_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-get_message_source_accessor"><strong>get_message_source_accessor</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-obtain_application_context"><strong>obtain_application_context</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-required_context_class"><strong>required_context_class</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="MockSimpleUrlHandlerMapping-set_application_context"><strong>set_application_context</strong></a>(self, context: springframework.context.ApplicationContext.ApplicationContext = None) -&gt; None</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="springframework.beans.factory.Aware.html#Aware">springframework.beans.factory.Aware.Aware</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="springframework.core.Ordered.html#Ordered">springframework.core.Ordered.Ordered</a>:<br>
+<dl><dt><strong>HIGHTEST_PRECEDENCE</strong> = -9223372036854775807</dl>
+
+<dl><dt><strong>LOWEST_PRECEDENCE</strong> = 9223372036854775807</dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>Locale</strong> = &lt;MagicMock name='Locale' id='4496043144'&gt;</td></tr></table>
+</body></html>
